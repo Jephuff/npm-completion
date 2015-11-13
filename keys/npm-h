@@ -427,6 +427,7 @@ handlebars-cmd
 handlebars-commonjs
 handlebars-comparison
 handlebars-compile-plugin
+handlebars-dateformat
 handlebars-delimiters
 handlebars-ecm
 handlebars-engine
@@ -632,6 +633,7 @@ hansneilnode
 hanson
 hant
 hanuman
+hanumavijaydemo
 hanyu
 hanzen
 hanzenkaku
@@ -4173,6 +4175,7 @@ hook-deploy
 hook-guy
 hook-javascript
 hook-javascript-oauth
+hook-js
 hook-line-sinker
 hook-module
 hook-runner

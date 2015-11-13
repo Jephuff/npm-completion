@@ -2047,6 +2047,7 @@ webtorrentapp
 webtouch
 webtrends-auth
 webtunnel
+webui-popover
 webuild-events
 webuild-repos
 webura-request
@@ -3113,6 +3114,7 @@ windows-ls
 windows-no-runnable
 windows-node-deps-deleter
 windows-powershell-getprocess
+windows-registry
 windows-registry-node
 windows-seleniumjar
 windows-service

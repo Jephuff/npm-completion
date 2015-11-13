@@ -446,6 +446,8 @@ xgettext-js-more-better
 xgettext-regex
 xgettext-template
 xgettext-template-dschissler
+xgettext-volt
+xgettext-volt-parser
 xgit
 xglib
 xglob

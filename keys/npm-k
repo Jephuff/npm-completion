@@ -3112,6 +3112,7 @@ koa-router-metadata
 koa-router-namespace
 koa-router-newrelic
 koa-router-scan
+koa-router-validator
 koa-routes
 koa-routing
 koa-routr

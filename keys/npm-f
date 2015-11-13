@@ -3603,6 +3603,7 @@ fis-prepackager-html2js
 fis-prepackager-htmltojs
 fis-prepackager-htmlwithsmarty
 fis-prepackager-htmlwithsmary
+fis-prepackager-i18n
 fis-prepackager-js-i18n
 fis-prepackager-load-widget
 fis-prepackager-m2c
@@ -3757,6 +3758,7 @@ fis3-parser-dustc
 fis3-parser-handlebars
 fis3-parser-html-uri
 fis3-parser-node-sass
+fis3-parser-pagelet
 fis3-parser-postcss
 fis3-parser-reactjs
 fis3-parser-rosetta

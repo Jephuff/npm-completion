@@ -834,6 +834,7 @@ observe_evented
 observe-array
 observe-deep
 observe-event
+observe-function
 observe-it
 observe-js
 observe-path
@@ -1728,6 +1729,7 @@ one-more-function
 one-page-app
 one-piece
 one-request
+one-router
 one-time
 one-ui-tasks
 one-validation

@@ -170,6 +170,7 @@ d3-functor
 d3-funnel
 d3-gauge
 d3-gauge-writable
+d3-gauge-x
 d3-gems
 d3-geo
 d3-geo-albers
@@ -1792,6 +1793,7 @@ dc-renderable
 dc-tabs
 dc-test
 dc-util
+dc-watch-list
 dc-worker
 dcagent
 dcap
@@ -4063,6 +4065,7 @@ dice-roller
 dice-tdd
 dice.html
 dice.js
+dice3d
 dicebear.api.canasta
 dicebear.com.core
 dicebear.com.game.canasta

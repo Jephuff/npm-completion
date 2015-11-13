@@ -6868,6 +6868,8 @@ tpack-coffee-script
 tpack-concat
 tpack-es6
 tpack-less
+tpack-node-markdown
+tpack-node-sass
 tpack-requirejs
 tpack-sass
 tpack-uglify-js
@@ -7478,6 +7480,7 @@ transparency
 transparent
 transparentcache
 transpile
+transpile-css
 transpile-watch
 transpiler
 transponder
@@ -8923,6 +8926,7 @@ tutti
 tuttiserver
 tuttiterm
 tuttle
+tutu-test-nodejs-module
 tutum
 tutum-deploy
 tutum-openstack

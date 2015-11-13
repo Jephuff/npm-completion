@@ -7152,6 +7152,7 @@ coden
 codename
 codenamer
 codenautas
+codenewbie-rot13
 codentity
 codeofwar
 codepad
@@ -8636,12 +8637,14 @@ commonjsify
 commonkv
 commonlog-bunyan
 commonmark
+commonmark-bbcode-renderer
 commonmark-helpers
 commonmark-react-renderer
 commonmark-str-to-html
 commonmark.json
 commonos
 commonplace
+commonpurefuc
 commonregex
 commons
 commons-app-server
@@ -13862,6 +13865,7 @@ cropit
 cropng
 cropper
 cropperjs
+croppie
 crops
 croquis
 cross

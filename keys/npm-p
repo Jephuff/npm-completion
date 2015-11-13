@@ -7833,6 +7833,7 @@ postcss-fakeid
 postcss-fallback
 postcss-filter
 postcss-filter-declarations
+postcss-filter-gradient
 postcss-filter-plugins
 postcss-flex
 postcss-flexboxfixer
@@ -10690,6 +10691,7 @@ proxy-me
 proxy-middleware
 proxy-node
 proxy-observe
+proxy-orchestrator
 proxy-out
 proxy-pool
 proxy-protocol

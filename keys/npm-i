@@ -1052,12 +1052,14 @@ ima.js-gulp-tasks
 imacros-get-to-first-tab
 imacros-read-file
 imacss
+imadmodule
 image
 image-annotate
 image-assets
 image-autosave-proxy
 image-batch-loader
 image-batch-resizer
+image-block
 image-compare
 image-compression
 image-crawler
@@ -4144,6 +4146,7 @@ irf
 iri
 iri-fs
 irid
+iridescent
 iridium
 iridium-timestamps
 irina

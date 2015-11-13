@@ -386,6 +386,7 @@ made-build-module
 made-build-page
 made-config
 made-id
+made-module
 made-pack-script
 made-runtime
 made-script
@@ -11193,6 +11194,7 @@ mozuxd-simulator
 mozvr-gazebo
 mp
 mp-additional-fields
+mp-challenge-pablo
 mp-command
 mp-cordova-plugin-app-version
 mp-cordova-plugin-camera

@@ -203,6 +203,7 @@ qemu-log
 qemu-qmp
 qeq
 qequire
+qeremy-couch
 qevent
 qevents
 qex-controls
@@ -1039,6 +1040,7 @@ quickly-copy-file
 quickmeteor
 quickmock
 quickndirtyapi
+quicknes
 quicknote
 quicknpm
 quickorder

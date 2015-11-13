@@ -1015,6 +1015,7 @@ lazy-exec
 lazy-extendable
 lazy-filter-stream
 lazy-flatten-stream
+lazy-flow
 lazy-fs
 lazy-functions
 lazy-g-cli

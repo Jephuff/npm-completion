@@ -5534,6 +5534,7 @@ epub-gen
 epub-generator
 epub-maker
 epub-metadata
+epub-node
 epub-ocf
 epub-parser
 epub-reader
@@ -6440,6 +6441,7 @@ eslint-config-meetic
 eslint-config-metalab
 eslint-config-meteor
 eslint-config-meteor-official
+eslint-config-michaelcontento
 eslint-config-micros
 eslint-config-modulus
 eslint-config-mongodb-js

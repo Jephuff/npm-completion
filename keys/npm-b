@@ -181,6 +181,7 @@ babel-plugin-ast-literal
 babel-plugin-async-try-catch
 babel-plugin-auto-assign
 babel-plugin-auto-symbol-description
+babel-plugin-babel6-react-transform
 babel-plugin-bem
 babel-plugin-check-es2015-constants
 babel-plugin-chr
@@ -1129,6 +1130,8 @@ backoff
 backoff-func
 backoff-linear-strategy
 backoff-retry
+backoffice-filters
+backofice-filters
 backpack
 backpack-coordinator
 backpack-ht16k33
@@ -5043,6 +5046,7 @@ bleno
 blerg
 bless
 bless-brunch
+bless-hn
 bless-webpack-plugin
 bless4
 blessed
@@ -6726,6 +6730,7 @@ bower-update
 bower-update-all
 bower-webpack-plugin
 bower-workspace
+bower2array
 bower2nix
 bowerapp
 bowerball

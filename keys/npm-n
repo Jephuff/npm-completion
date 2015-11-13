@@ -3259,6 +3259,7 @@ nisha-github-example
 nishantmendiratta-github-example
 nist-beacon
 nit
+nit-tool
 nite-flights
 niteoaws
 nithub
@@ -11754,6 +11755,7 @@ nroonga-httpd
 nropf
 nrp
 nrp2
+nrql-parser
 nrrd-js
 nrRenamer
 nrs
@@ -12164,6 +12166,7 @@ nuclide-source-control-helpers
 nuclide-ssh-dialog
 nuclide-task
 nuclide-test-helpers
+nuclide-test-runner-interfaces
 nuclide-test-runner-types
 nuclide-text-buffer
 nuclide-text-event-dispatcher

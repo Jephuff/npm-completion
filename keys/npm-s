@@ -2677,6 +2677,7 @@ scroll-bounds
 scroll-element-into-view
 scroll-event
 scroll-fever
+scroll-fixed-header
 scroll-frame
 scroll-helper
 scroll-into-view
@@ -4915,6 +4916,7 @@ sexyback
 sexylog
 sexytime
 seye.js
+seymour
 seyren-cli
 sezam
 sf
@@ -15581,6 +15583,7 @@ string-ting
 string-to-baudot-code
 string-to-binary
 string-to-btc-addresses
+string-to-bytes
 string-to-code-point-array
 string-to-dom
 string-to-functionify
@@ -17267,6 +17270,7 @@ supermodule2
 supermodule2015snayps
 supermodule23
 supermodule444519
+supermodule666
 supermodule90007
 supermodule999
 supermoduleairatmaker

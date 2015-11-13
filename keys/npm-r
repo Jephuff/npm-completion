@@ -2757,6 +2757,7 @@ react-highlight
 react-highlight-click
 react-highlight.js
 react-highlightable
+react-highlighted
 react-highlighter
 react-highstock
 react-highstock-demo
@@ -3593,6 +3594,7 @@ react-native-responsive-image
 react-native-responsive-images
 react-native-rest-kit
 react-native-reverse-geo
+react-native-rj-navigator
 react-native-route-navigator
 react-native-router
 react-native-router-fix
@@ -4537,6 +4539,7 @@ react-tangle-compat
 react-tap
 react-tap-event-plugin
 react-tap-event-plugin-temp
+react-tap-or-click
 react-tap-to-reveal-options
 react-taplink
 react-tappable
