@@ -1,12 +1,17 @@
 {
   "name": "npm-bash-completion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bash completion script for npm package names.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jephuff/npm-completion.git"
   },
-  "keywords": ["bash", "completion", "npm", "shell"],
+  "keywords": [
+    "bash",
+    "completion",
+    "npm",
+    "shell"
+  ],
   "author": "Jeffrey Burt",
   "license": "ISC",
   "bugs": {
