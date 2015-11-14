@@ -700,6 +700,7 @@ ziffy
 ziftr-api-client-nodejs
 zig
 zigbee
+zigbee-gw-client
 ziggeo
 ziggy
 ziggy-albert
@@ -891,6 +892,7 @@ zlz-html
 zlzf7
 zm
 zm-event-kit
+zm-watcher
 zmail
 zmidi
 zmkit

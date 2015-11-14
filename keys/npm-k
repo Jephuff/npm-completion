@@ -122,6 +122,7 @@ kaching-paypal
 kad
 kad-boilerplate
 kad-localstorage
+kad-mongo
 kada
 kada-util
 kademlia
@@ -285,6 +286,7 @@ kamote
 kampot
 kamrulhasanbabu
 kamrulhasanbabu1
+kamrulsimplenodeex
 kamu
 kamuicheng-nodeap
 kamuran
@@ -827,6 +829,7 @@ karma-should-promised
 karma-should-sinon
 karma-simple-browserify-preprocessor
 karma-simple-reporter
+karma-simpler-reporter
 karma-sinon
 karma-sinon-chai
 karma-sinon-chai-latest
@@ -1591,6 +1594,8 @@ keychain-manager
 keychain-sync
 keychair
 keycharm
+keycloak
+keycloak_user
 keycloak-admin-client
 keycloak-auth-utils
 keycloak-authenticated-client
@@ -2372,6 +2377,7 @@ kn-release
 knacss
 knalli-angular-translate
 knalli-package-release-test
+knapp.js
 knapsack
 knapsack-js
 knax
@@ -3199,6 +3205,7 @@ koa-static-regexp
 koa-static-scaffold
 koa-static-serve
 koa-static-server
+koa-static-with-post
 koa-stats
 koa-statsd
 koa-status
@@ -4087,6 +4094,7 @@ kyotocabinet
 kyotocabinet-node
 kyper-grout
 kyper-matter
+kyr
 kyrandomiser
 kytea
 kyu-s

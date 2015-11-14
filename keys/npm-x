@@ -54,6 +54,7 @@ x-flex
 x-foo
 x-format
 x-forward
+x-forwarded-from-hapi
 x-frame-options
 x-freelist
 x-fs
@@ -448,6 +449,7 @@ xgettext-template
 xgettext-template-dschissler
 xgettext-volt
 xgettext-volt-parser
+xgettext-webird
 xgit
 xglib
 xglob

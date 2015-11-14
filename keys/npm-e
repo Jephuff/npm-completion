@@ -1482,6 +1482,7 @@ elastica
 elastical
 elasticauth-api
 elasticbean-deploy
+elasticbible
 elasticbone
 elasticclient
 elasticdb
@@ -2344,6 +2345,7 @@ ember-cli-babylon
 ember-cli-backstop
 ember-cli-backstretch
 ember-cli-base64
+ember-cli-base64-converter
 ember-cli-base64-css
 ember-cli-betamax
 ember-cli-better-select
@@ -2477,6 +2479,7 @@ ember-cli-deploy-git-tag
 ember-cli-deploy-github
 ember-cli-deploy-gzip
 ember-cli-deploy-hipchat
+ember-cli-deploy-html-manifest
 ember-cli-deploy-index-ssh
 ember-cli-deploy-json-config
 ember-cli-deploy-lightning-pack
@@ -2966,6 +2969,7 @@ ember-cli-image
 ember-cli-image-cropper
 ember-cli-imagemin
 ember-cli-imgix
+ember-cli-import
 ember-cli-index-fragment
 ember-cli-indexeddb-wrapper
 ember-cli-infinite-scroll
@@ -2996,6 +3000,7 @@ ember-cli-jquery-sparkline
 ember-cli-jquery-storage-api
 ember-cli-jquery-ui
 ember-cli-jqui
+ember-cli-js-cookie
 ember-cli-js-morris
 ember-cli-jsconsole
 ember-cli-jscs
@@ -3718,6 +3723,7 @@ ember-jquery-mobile
 ember-jquery-sparkline
 ember-js-mock
 ember-jsdoc
+ember-jshamcrest
 ember-json-api
 ember-json-pretty
 ember-json-schema
@@ -4045,6 +4051,7 @@ ember-superstatic
 ember-svg
 ember-svg-shapes
 ember-svg-sprite-sheet
+ember-swagger-ui
 ember-sync
 ember-tabbable
 ember-tabella
@@ -4599,6 +4606,7 @@ encuestas-node
 encyclopedia
 end
 end-of-stream
+end-of-stream-notify
 end-or-error
 end-stream
 end-through
@@ -4888,6 +4896,7 @@ enpeem
 enpeem-search
 enpm
 enpyem
+enq
 enqjs
 enqueue
 enquire
@@ -4988,6 +4997,7 @@ entity-access
 entity-color-tool
 entity-component-system
 entity-convert
+entity-crud
 entity-engine
 entity-js
 entity-promises
@@ -5753,6 +5763,8 @@ error-parser
 error-patch
 error-plus
 error-provider
+error-receiver
+error-registry
 error-render
 error-reporter
 error-request-handler
@@ -5899,6 +5911,7 @@ es6
 es6_import_sorter
 es6_promise
 es6-actioncable
+es6-array-compose
 es6-array-extras
 es6-arrow-function
 es6-boilarplate
@@ -5998,6 +6011,7 @@ es6-node-iterator
 es6-node-module
 es6-npm
 es6-npm-boilerplate
+es6-npm-package-scaffold
 es6-npm-starter
 es6-object-assign
 es6-object-concise
@@ -6360,6 +6374,7 @@ eslint-config-duo
 eslint-config-dustinspecker
 eslint-config-ecliptic
 eslint-config-ediket
+eslint-config-egg
 eslint-config-eleks
 eslint-config-emarsys
 eslint-config-ember
@@ -6385,6 +6400,7 @@ eslint-config-golmansax
 eslint-config-google
 eslint-config-goreutils
 eslint-config-gpbl
+eslint-config-groupon
 eslint-config-gulp
 eslint-config-guyellis
 eslint-config-gyandeep
@@ -6472,6 +6488,7 @@ eslint-config-nordnet
 eslint-config-npm
 eslint-config-nutshell
 eslint-config-odc
+eslint-config-omi
 eslint-config-onsip
 eslint-config-opengov
 eslint-config-openlayers
@@ -6538,6 +6555,7 @@ eslint-config-standard-jsdoc
 eslint-config-standard-react
 eslint-config-standard-warn
 eslint-config-standardberry
+eslint-config-steelbrain
 eslint-config-stephensauceda
 eslint-config-strict
 eslint-config-strict-react
@@ -8277,6 +8295,7 @@ expand-template
 expand-tilde
 expand-url
 expand-util
+expand-utils
 expand-var
 expand-year
 expanda

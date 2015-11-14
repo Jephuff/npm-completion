@@ -1681,6 +1681,7 @@ fetch-mock
 fetch-movies
 fetch-node
 fetch-o-logo
+fetch-observable
 fetch-once
 fetch-optimizer
 fetch-patch
@@ -2138,6 +2139,7 @@ filbert
 filch
 filder
 fildes
+fildes-extra
 file
 file_chat
 file_get_contents_sync
@@ -3409,6 +3411,7 @@ fis-parser-jsx-react
 fis-parser-less
 fis-parser-less-2.x
 fis-parser-less-import
+fis-parser-less-preprocessor
 fis-parser-less-qbt
 fis-parser-less-video
 fis-parser-less-with-lib
@@ -5130,6 +5133,7 @@ fluxible-plugin-store-execute-action
 fluxible-plugin-waterline-models
 fluxible-reducer-store
 fluxible-router
+fluxible-router-oom
 fluxible-service-proxy
 fluxify
 fluxing
@@ -5946,6 +5950,7 @@ form-autofill
 form-builder
 form-changed
 form-constructor
+form-control
 form-controller.js
 form-cues
 form-data
@@ -6888,6 +6893,7 @@ framer-webview
 framerate
 framerjs
 frames
+frames-api-helpers
 frames2string
 frametest
 frametest-tap-runner-harness
@@ -7122,6 +7128,7 @@ fresh-cache
 fresh-falafel
 fresh-js
 fresh-monads
+fresh-mysql
 fresh-promise
 fresh-require
 fresh-validation
@@ -7285,6 +7292,7 @@ fromatobree
 fromeventsource
 fromjs
 fromjson
+fromnow
 fromq
 froms
 fron-end-framework
@@ -7782,6 +7790,7 @@ ft-next-barriers
 ft-next-express
 ft-next-handlebars
 ft-next-logger
+ft-next-myft-api
 ft-next-navigation
 ft-next-session-client
 ft-next-session-component

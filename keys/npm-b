@@ -270,6 +270,7 @@ babel-plugin-react
 babel-plugin-react-auto-display-name
 babel-plugin-react-autoprefix
 babel-plugin-react-bemed
+babel-plugin-react-cl
 babel-plugin-react-class-display-name
 babel-plugin-react-constant-elements
 babel-plugin-react-css-modules
@@ -300,6 +301,7 @@ babel-plugin-remove-proptypes
 babel-plugin-remove-symbol-description
 babel-plugin-rename-define
 babel-plugin-replace-config-vars
+babel-plugin-resolver
 babel-plugin-rewire
 babel-plugin-rewire-babelcore-modified
 babel-plugin-rewire-babelcore-modified2
@@ -1012,6 +1014,7 @@ backbone.radio
 backbone.react-view
 backbone.reactive
 backbone.record
+backbone.region
 backbone.rel
 backbone.relations
 backbone.resource
@@ -1401,6 +1404,7 @@ balanced-node-v1.1
 balanced-official
 balanced-official-beta
 balanced-ternary
+balanceprojector
 balancer
 balancier
 balancing-request
@@ -1861,6 +1865,7 @@ basecamp
 basecamp-api
 basecamp-classic
 basecamp-commentor
+basecamp-todoexporter
 baseclass
 baseclassjs
 baseclef
@@ -2525,6 +2530,7 @@ bcd-date
 bcdn-react
 bceventjs
 bciptk
+bcit-charity-bingo
 bcksrv
 bcms
 bcms-js
@@ -3881,11 +3887,13 @@ billable
 billboard
 billd
 billforward
+billforward-js
 billing-ember
 billogram
 billogramapi
 billom
 billon
+billon-salary
 billon-soap
 billow
 bills-experiment-mirror
@@ -4002,6 +4010,7 @@ binary-values
 binary-view
 binary-xhr
 binarybeast
+binarydb
 binaryextensions
 binaryheap
 binaryheap-resizable
@@ -5068,6 +5077,7 @@ blew
 blgn
 blick
 blikk-logjs
+blim-jshint
 blimp
 blimp-zeppelin
 blinadi
@@ -8058,6 +8068,7 @@ browser-redux-sync
 browser-refresh
 browser-refresh-client
 browser-refresh-taglib
+browser-register
 browser-relay-client
 browser-reload
 browser-repl
@@ -8615,6 +8626,7 @@ btc-ex-api
 btc-markets
 btc-opcode
 btc-p2p
+btc-payments
 btc-script
 btc-stats
 btc-ticker

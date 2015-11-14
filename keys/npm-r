@@ -109,6 +109,7 @@ rabbitmq-retry
 rabbitmq-tracing
 rabbitmq-wrapper
 rabbitr
+rabbitr-required-middleware
 rabbitrpc
 rabble
 rabblescay
@@ -1636,6 +1637,7 @@ rdf-parser-dom
 rdf-parser-jsonld
 rdf-parser-microdata
 rdf-parser-n3
+rdf-parser-n3-browser
 rdf-parser-rdfxml
 rdf-prefixes
 rdf-raptor-parser
@@ -1650,6 +1652,7 @@ rdf-store-acl
 rdf-store-fs
 rdf-store-inmemory
 rdf-store-ldp
+rdf-store-ldp-browser
 rdf-store-multi
 rdf-store-rdfstore-js
 rdf-store-server
@@ -1686,6 +1689,7 @@ rdx
 rdy
 re
 re-add-comments
+re-animator
 re-base
 re-build
 re-captcha
@@ -2462,6 +2466,7 @@ react-electron-webview
 react-element-factory
 react-element-pan
 react-element-query
+react-element-to-html
 react-element-to-jsx-string
 react-elements
 react-ellipsify
@@ -3345,6 +3350,7 @@ react-native-control-flashlight-ios
 react-native-control-screen-sleep-ios
 react-native-cookies
 react-native-cordova-plugin
+react-native-couchbase-lite
 react-native-create-new-file-ios
 react-native-cropping
 react-native-css
@@ -3397,6 +3403,7 @@ react-native-fabric-digits
 react-native-facebook-login
 react-native-facebook-messenger
 react-native-fading-slides
+react-native-fb-like-button
 react-native-fbintent
 react-native-fbsdkcore
 react-native-fbsdkcore-master-mirror
@@ -3424,6 +3431,7 @@ react-native-fs
 react-native-fs-modal
 react-native-ga
 react-native-gcm
+react-native-gcm-android
 react-native-generator
 react-native-geocoder
 react-native-geolocation
@@ -3555,6 +3563,7 @@ react-native-packager
 react-native-page-control
 react-native-parallax
 react-native-parallax-view
+react-native-parsed-text
 react-native-pasteboard
 react-native-pay
 react-native-phone-picker
@@ -4073,6 +4082,7 @@ react-resolver
 react-resolver-csp
 react-resolver-fix
 react-resource
+react-resources-loader
 react-respond-to
 react-responsive
 react-responsive-carousel
@@ -4603,6 +4613,7 @@ react-time-travel
 react-timeago
 react-timeago-intl
 react-timeline
+react-timeline-component
 react-timeout
 react-timepicker
 react-timer
@@ -4726,6 +4737,7 @@ react-ui-namespace
 react-ui-select
 react-ui-tabs
 react-ui-tree
+react-uibox
 react-uickeychainstore
 react-uifw
 react-uikit
@@ -4831,6 +4843,7 @@ react-widgets
 react-widgets-globalize-localizer
 react-widgets-moment-localizer
 react-wildcat
+react-wildcat-ensure
 react-wildcat-handoff
 react-wildcat-prefetch
 react-wildcat-radium
@@ -5049,6 +5062,7 @@ reactypeahead
 read
 read_browser_console
 read_line
+read_words
 read-all-stream
 read-art
 read-async-bson
@@ -6192,6 +6206,7 @@ redisui
 redisuri
 redisurl
 rediswalker
+reditor
 redium
 redix-ex
 redix-ex-cli
@@ -6410,6 +6425,8 @@ redux-log-slow-reducers
 redux-logger
 redux-lunr
 redux-make-immutable
+redux-make-more
+redux-make-mori
 redux-map
 redux-middleware-api
 redux-middleware-logger
@@ -6418,6 +6435,7 @@ redux-middleware-react-native-appstate
 redux-middleware-react-native-netinfo
 redux-mixpanel
 redux-mock-store
+redux-modal
 redux-mongo-admin
 redux-multi
 redux-multiplex
@@ -6473,6 +6491,7 @@ redux-rx
 redux-save-state
 redux-scaffold
 redux-sequence-action
+redux-session-storage
 redux-side-effect
 redux-signals
 redux-simple-promise
@@ -6917,6 +6936,7 @@ regular-request
 regular-state
 regular-stream
 regular-ui
+regular-ui-dragdrop
 regular-weasel
 regularevent
 regularify
@@ -7795,6 +7815,7 @@ reqhooks
 reqify
 reqio
 reql-cli
+reql-pointfree
 reql-replay-driver
 reql-then
 reqlimit
@@ -9009,6 +9030,7 @@ response.step
 responses
 responsible
 responsible.js
+responsify
 responsimple
 responsive
 responsive_nodejs_chat
@@ -9303,6 +9325,7 @@ restify-error
 restify-error-helper
 restify-errors
 restify-eventsource
+restify-formatter-jsonapi
 restify-formatter-jsonp
 restify-formatter-text
 restify-git-json
@@ -10131,6 +10154,7 @@ rhodelogger
 rhodeslogger
 rhodium
 rhom
+rhom-client
 rhom-common
 rhombus
 rhombus.js
@@ -10754,6 +10778,7 @@ rm
 rm-api
 rm-components
 rm-css-utilities
+rm-debugger
 rm-deploy
 rm-errors
 rm-headlands
@@ -10888,6 +10913,7 @@ roat
 rob
 rob-util
 robb
+robbiethegeek
 robe
 robe-and-wizard-hat
 robeaux
@@ -11383,6 +11409,7 @@ rot13-transform
 rot26
 rot32
 rotary
+rotary-array
 rotary-text
 rotatable
 rotate
@@ -12421,6 +12448,7 @@ rustic.js
 rustle
 rustscript
 rusty
+rusty-nails
 rustyscript
 rut
 ruta

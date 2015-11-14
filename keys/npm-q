@@ -203,7 +203,10 @@ qemu-log
 qemu-qmp
 qeq
 qequire
+qeremy-base64
 qeremy-couch
+qeremy-exec-sync
+qeremy-file-info
 qevent
 qevents
 qex-controls
@@ -544,6 +547,7 @@ qs.js
 qs2
 qs3
 qsa
+qsa-es5
 qscalendarheatmap
 qscraper
 qsearch-backend
@@ -786,6 +790,7 @@ query-js
 query-lube
 query-mobile-phone-area
 query-mobile-phone-area-cli
+query-monster
 query-obj
 query-object
 query-overpass

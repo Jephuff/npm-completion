@@ -1655,6 +1655,7 @@ dbbuilder
 dbc
 dbc-node-basesoap-client
 dbc-node-borchk
+dbc-node-entitysuggest
 dbc-node-logger
 dbc-node-moreinfo-client
 dbc-node-newrelic-wrapper
@@ -2022,6 +2023,7 @@ debomify
 debonair
 debounce
 debounce-collect
+debounce-decorator
 debounce-fn
 debounce-hashed
 debounce-on
@@ -3084,6 +3086,7 @@ denullify
 denunciation
 denver
 deo
+deo-build
 deobfuscate
 deodar
 deodorant
@@ -3117,6 +3120,7 @@ depdiff
 depdoc
 depen
 depend
+depend-tree
 dependability
 dependable
 dependable-list
@@ -5310,6 +5314,7 @@ dnd-tree-view
 dnd-upload-upyun
 dndjs
 dnet-index-proxy
+dng-test-utils
 dngl
 dnimmo-github-test
 dnn
@@ -5496,6 +5501,7 @@ docfx
 docfxjs
 docgen
 docgen-js
+docgen-loader
 docgen-tool
 docgenerator
 docgr
@@ -7806,8 +7812,10 @@ drzk-flex-grid
 ds
 ds-api
 ds-cache
+ds-common
 ds-database
 ds-email-builder
+ds-gulp-builder
 ds-lang
 ds-mdata-responder
 ds-new-data
@@ -7843,6 +7851,7 @@ dsc-ember-forms
 dsc-file
 dscape-mind-explosion-database
 dschalk-test
+dscommon
 dsd
 dsdrop
 dsds

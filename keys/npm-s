@@ -414,6 +414,7 @@ sagemathcloud
 saguaro
 sagui
 sahara
+saharinmodule
 sahtml
 sai
 sai_curry
@@ -991,6 +992,7 @@ samewave-cli
 samfisher
 sami
 sami-parser
+samidare
 samjs
 samjs-client
 samjs-mongo
@@ -1190,6 +1192,7 @@ sane-domparser-error
 sane-email-validation
 sane-object
 sane-scaffold
+sane-topojson
 sane-typeof
 sane-web-socket
 sanee
@@ -1214,6 +1217,7 @@ sanitize-marathon-app-id
 sanitize-multiprocess
 sanitize-object
 sanitize-string
+sanitize-values
 sanitize-worker
 sanitize.css
 sanitize.less
@@ -1499,6 +1503,7 @@ sasslets-position
 sasslets-responsive
 sassline
 sasslint
+sasslint-loader
 sasslus
 sassme
 sassolite
@@ -2263,6 +2268,7 @@ sclass.js
 scloud-cli
 scm
 scmin
+scmindent
 scmod
 scmp
 scms
@@ -3982,6 +3988,7 @@ sensis-validation
 sensit-api
 sensit-client
 sensitive
+sensitive-escape
 senson
 sensor
 sensor_bmp085
@@ -4019,6 +4026,7 @@ sentaku
 sente
 sentence
 sentence-case
+sentence-splitter
 sentence-tokenizer
 sentence-tools
 sentencer
@@ -5366,6 +5374,7 @@ sheet
 sheet-db
 sheet-down
 sheet-loader
+sheet-reader
 sheet-to-array-of-objects
 sheetdown
 sheeter
@@ -5572,6 +5581,7 @@ shiftjs
 shifty
 shifu
 shigehachi
+shigoto
 shijian
 shijun-npm-demo-pkg
 shiki
@@ -5589,6 +5599,7 @@ shimmer
 shimming
 shimmy
 shimney-accounting
+shimney-amplify
 shimney-bootstrap-datepicker
 shimney-cookie-monster
 shimney-hogan
@@ -5717,6 +5728,7 @@ shmakowiki-toc
 shmdb
 shmeck
 shmilcute
+shml
 shmock
 shmui
 shmuku
@@ -6643,6 +6655,7 @@ simple-add
 simple-aes-json
 simple-agent
 simple-ajax
+simple-ajax-uploader
 simple-analytics
 simple-angular-server
 simple-animator
@@ -7358,6 +7371,7 @@ simplebus
 simplecache
 simplecached
 simplecached-molon
+simplecalculation026012
 simplecalculator
 simplecards
 simplecgi
@@ -7407,6 +7421,7 @@ simpledsl
 simpledt
 simpleenv
 simpleesb
+simpleex
 simplefilecache
 simplefire
 simpleflake
@@ -8030,6 +8045,7 @@ sitegen-loader-markdown
 siteify
 siteinfo
 sitejson
+siteleaf
 siteleaf-sdk
 sitelock-holmes
 sitemap
@@ -9032,6 +9048,7 @@ slush-atom-shell
 slush-atom-shell-dev
 slush-atp
 slush-aw-sitebuild
+slush-aws-lambda
 slush-babel
 slush-babel-library
 slush-babel-library-test
@@ -9100,6 +9117,7 @@ slush-hapi
 slush-hawtio-javascript
 slush-hawtio-typescript
 slush-haxelib
+slush-hbs-admin
 slush-he-man
 slush-helpful-ui
 slush-hence
@@ -9319,6 +9337,7 @@ smacss
 smacss-oocss
 smacss-oosass
 smaf-cli
+smagebot
 smail
 smaki
 smal
@@ -10688,6 +10707,7 @@ solid-queue
 solid-sauce
 solid-server
 solid-state
+solid-tests
 solid-ws
 solidify
 solidipes
@@ -13056,6 +13076,7 @@ ssh-keypair
 ssh-kit
 ssh-known-to-config
 ssh-login-checker
+ssh-manager
 ssh-mole
 ssh-perf
 ssh-pool
@@ -14366,6 +14387,8 @@ stevedore
 stevejobs
 stevejobs-server
 steven
+steven-elliott_cordova-plugin-contacts
+steven-elliott-cordova-plugin-contacts
 steven-github-example
 stevenc4.server
 stevenfupcdemo
@@ -14745,6 +14768,7 @@ stormz
 storotype
 storr
 story
+story-board-css
 storyboarder
 storycode
 storyteller
@@ -16580,6 +16604,7 @@ subset
 subset-sum
 subsets
 subshell
+subsider-censorify
 subsonic
 subst
 substack
@@ -17284,6 +17309,7 @@ supermoduleivan
 supermodulekoshaindustry
 supermodulesnayps
 supermodulesuperstar
+supermoduletest
 supermoduletesting
 supermoduletto
 supermodulewsite

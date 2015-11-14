@@ -143,6 +143,7 @@ lacona-addon-stateful
 lacona-addon-unique
 lacona-command-config
 lacona-command-osx
+lacona-command-translate
 lacona-phrase
 lacona-phrase-application
 lacona-phrase-datetime
@@ -452,6 +453,7 @@ langdetect-js
 langeroids
 langify
 langjun
+langland-react-video
 langley
 langmap
 langnames
@@ -2238,6 +2240,7 @@ lettersmith
 lettersorter
 lettore-sensori
 lettuce
+lettuce-encrypt
 letv
 letv-boss-dt
 letvcloud
@@ -2847,6 +2850,7 @@ lib-union
 lib1
 lib1self-server
 lib4q
+liba1
 libalac
 libamd
 libarary-boilerplate
@@ -3570,6 +3574,7 @@ lineclip
 lined
 lineder
 linediff
+linedup-cli
 linefeed
 linefeeds
 linefix
@@ -4674,6 +4679,7 @@ load-style
 load-styles
 load-stylesheet
 load-svg
+load-tasks-gulp
 load-templates
 load-test
 load-tester

@@ -264,6 +264,7 @@ halacious
 halberd
 halbert
 halbone
+halbordnung
 halcyon
 hale
 half-duplex
@@ -1828,6 +1829,7 @@ hazel
 hazelnut
 hazmat
 hazpush
+hazy
 hazzle
 hazzle-promises
 hb
@@ -3323,6 +3325,7 @@ highland-wrapcallback
 highlander
 highlandx
 highlight
+highlight-bigfix-actionscript
 highlight-cli
 highlight-codemirror
 highlight-cov
@@ -5480,6 +5483,7 @@ http-proxy-middleware
 http-proxy-no-line-184-error
 http-proxy-nocrash
 http-proxy-nocrash-ebs
+http-proxy-rules
 http-proxy-rulz
 http-proxy-selective
 http-proxy-server
@@ -6015,6 +6019,7 @@ hubot-cig
 hubot-circle-build-status
 hubot-circleci
 hubot-circleci-notify
+hubot-cleverbot
 hubot-clipart
 hubot-clj
 hubot-cloudflare-ddns
@@ -6236,6 +6241,7 @@ hubot-github-notify
 hubot-github-pages
 hubot-github-pr-assign-notification
 hubot-github-pr-release
+hubot-github-pull-requests
 hubot-github-repo-event-notifier
 hubot-github-repo-event-notifier-2
 hubot-github-repo-event-notifier2
@@ -6929,6 +6935,7 @@ hubot-ssh
 hubot-ssh2
 hubot-sshchat
 hubot-sshchat-cmds
+hubot-sshell
 hubot-stackoverflow
 hubot-stackoverflow-search
 hubot-stackstorm
@@ -7260,12 +7267,14 @@ huginn
 huginn-asset-bundler
 huginn-liquid
 huginn-tag-cloud
+hugla
 hugla-body-parser
 hugla-config
 hugla-http
 hugla-logger
 hugla-redis-session
 hugla-simplemongo
+hugla-socket.io
 hugo
 hugo_math_example
 hugo-cli

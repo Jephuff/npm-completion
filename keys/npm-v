@@ -1009,6 +1009,7 @@ verbal-morality
 verbalise
 verbalize
 verbiage
+verbix
 verbnurbs
 verbo
 verbose
@@ -1193,6 +1194,8 @@ vertebratejs
 vertex
 vertex-client
 vertex-node
+vertex-toolkit
+vertex-toolkit-module
 vertexhelper
 vertexmap
 vertica
@@ -1473,6 +1476,7 @@ videojs-osmf
 videojs-overlay
 videojs-playlist
 videojs-playlist-ui
+videojs-react
 videojs-record
 videojs-resolution-selector
 videojs-resolution-switcher
@@ -2711,6 +2715,7 @@ vsko-datepicker
 vsm_thrift
 vsmvc
 vso-client
+vso-extension-samples
 vso-node-api
 vso-node-client
 vso-task-lib
