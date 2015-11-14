@@ -1451,6 +1451,7 @@ neopixel
 neopixel-animations
 neopixels
 neoprene
+neoproxy
 neoreplicator
 neorm
 neospeech
@@ -2624,6 +2625,7 @@ ng2-google-maps
 ng2-grid
 ng2-handsontable
 ng2-hot-loader
+ng2-image-lazy-load
 ng2-infinite-scroll
 ng2-progress
 ng2-redux
@@ -6577,6 +6579,7 @@ node-podio
 node-poker
 node-polldaddy
 node-polling
+node-pololu
 node-poloniex
 node-polyglot
 node-pom-parser
@@ -6769,6 +6772,7 @@ node-raw
 node-rayo
 node-razor
 node-rbac
+node-rbuild
 node-rc6
 node-rdf2json
 node-rdio
@@ -12722,6 +12726,7 @@ nysp2webmerc
 nyt
 nyt-congress-node
 nyt-reader
+nyt-top
 nytd-ice-cream
 nytd-video-build-grunt
 nytdistricts

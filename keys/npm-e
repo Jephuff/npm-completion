@@ -393,6 +393,7 @@ easyimage-tmpfix
 easyioc
 easyip
 easyjson
+easyleveldb
 easylogger
 easymath
 easymaven
@@ -934,6 +935,7 @@ editor-timeline
 editor-ui-lib
 editor-widget
 editor-widgets
+editor.js
 editor.md
 editor8
 editorconfig
@@ -1270,6 +1272,7 @@ egor
 egov-pep-frontend
 egraph
 egreedy
+egregore
 egress
 egress-bootstrap
 egret
@@ -1939,6 +1942,7 @@ elm-brunch
 elm-compile-html
 elm-engine-core
 elm-expressway
+elm-live
 elm-loader
 elm-oracle
 elm-platform-bin
@@ -3893,6 +3897,7 @@ ember-prerender
 ember-pretenderify
 ember-prism
 ember-promise
+ember-promise-block
 ember-promise-button
 ember-property-computed
 ember-proxy-controllers
@@ -6098,11 +6103,14 @@ es6umd
 es6views
 es6y
 es6y-throttle
+es7
 es7-async-await
 es7-async-fn
 es7-autobinder
 es7-object-observe
 es7-shim
+es8
+es9
 esa
 esa-nodejs
 esandex
@@ -10180,9 +10188,11 @@ ez-electron
 ez-error
 ez-express
 ez-generator
+ez-jedi
 ez-jenkins
 ez-localize
 ez-log
+ez-mailer
 ez-map
 ez-mongodb
 ez-mysql

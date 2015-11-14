@@ -1178,6 +1178,7 @@ sandjs
 sandkasten-port
 sandman
 sando-parser
+sandpiper
 sandpit
 sandwich
 sandwich-stream
@@ -7372,6 +7373,7 @@ simplecache
 simplecached
 simplecached-molon
 simplecalculation026012
+simplecalculation690920
 simplecalculator
 simplecards
 simplecgi
@@ -16934,6 +16936,7 @@ sunruse-influx-platforms-c
 sunruse-influx-platforms-helpers
 sunruse-influx-platforms-javascript
 sunruse-influx-toolchain
+sunruse-math-vector
 suns
 sunset
 sunshine
@@ -17154,6 +17157,7 @@ superemitter
 superenv
 supererror
 superexec
+superfast
 superfeed
 superfeedr
 superfetch
@@ -17531,6 +17535,7 @@ surveygizmo-client
 surveyman
 surveymonkey
 surveymonkey-fields
+survivejs
 survivor
 survivor-game
 sus

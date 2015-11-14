@@ -2597,6 +2597,7 @@ path-tree
 path-trie
 path-type
 path-utils
+path-win32
 path.hx
 path.join
 path.js
@@ -4018,6 +4019,7 @@ pg-query
 pg-query-bluebird
 pg-query-builder
 pg-query-formatter
+pg-query-native
 pg-query-readstream
 pg-query-stream
 pg-query2

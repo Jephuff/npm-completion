@@ -2829,6 +2829,7 @@ jquery-ui
 jquery-ui-browserify
 jquery-ui-bundle
 jquery-ui-celtra
+jquery-ui-droppable-iframe
 jquery-ui-i18n
 jquery-ui-iconfont
 jquery-ui-maps
@@ -3660,6 +3661,7 @@ js2model
 js2peg
 js2php
 js2phtml
+js2sdk
 js2uri
 js2velocity
 js2xml

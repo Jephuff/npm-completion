@@ -2774,6 +2774,7 @@ koa-dot
 koa-dot-singles
 koa-dtrace
 koa-duplexify
+koa-easy-route
 koa-efficient
 koa-ejs
 koa-ejs2x
@@ -3634,6 +3635,7 @@ kq
 kq2
 kr
 kr-cli
+kraatus
 krabby
 kracht
 krake-slave

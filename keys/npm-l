@@ -694,6 +694,7 @@ larvitblog
 larvitcms
 larvitdb
 larvitdbmigration
+larvitimages
 larvitrouter
 larvitsession
 larvitslugify
@@ -2922,6 +2923,7 @@ libnmap
 libnmea
 libnodegit
 libnotify
+libnotify-ffi
 libp2p
 libp2p-kad-record-store
 libp2p-kad-routing
@@ -4422,6 +4424,7 @@ livia
 livia-algorithm
 livia-orientdb
 livia-titan
+livid
 liview
 living
 livingdocs-design-manager

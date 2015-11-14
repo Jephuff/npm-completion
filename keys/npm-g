@@ -932,6 +932,7 @@ gemini-coverage
 gemini-css
 gemini-ecstatic
 gemini-express
+gemini-extend-capabilities
 gemini-fold
 gemini-form
 gemini-gallery
@@ -1479,6 +1480,7 @@ generator-autobahn
 generator-autobot
 generator-avalon
 generator-avalon-oniui
+generator-avionic
 generator-aw-sitebuild
 generator-awebapp
 generator-awesome
@@ -1689,6 +1691,7 @@ generator-bootstrap-kickstart
 generator-bootstrap-less
 generator-bootstrap3-less
 generator-bootstrap3-less-editable-vars
+generator-bootstrap4
 generator-bosonic
 generator-bot
 generator-bourbon
@@ -7166,6 +7169,7 @@ gitbook-plugin-mathjax4us2
 gitbook-plugin-maxiang
 gitbook-plugin-mcqx
 gitbook-plugin-md-include
+gitbook-plugin-mdinhtml
 gitbook-plugin-mdsections
 gitbook-plugin-mermaid
 gitbook-plugin-mermaid-2
@@ -7928,6 +7932,7 @@ gl-react
 gl-react-core
 gl-react-dom
 gl-react-inspector
+gl-react-joeonmars-fork
 gl-react-native
 gl-render-text
 gl-reset
@@ -12808,6 +12813,7 @@ grunt-helpers
 grunt-hercule
 grunt-heritage
 grunt-heroku
+grunt-heroku-branch
 grunt-heroku-build-api
 grunt-heroku-deploy
 grunt-heroku-env
@@ -16995,6 +17001,7 @@ gulp-amdsync
 gulp-amperize
 gulp-amrio-seajs-builder
 gulp-amw-dest
+gulp-angen
 gulp-angular
 gulp-angular-app-builder
 gulp-angular-architecture-graph
@@ -18634,6 +18641,7 @@ gulp-jest
 gulp-jest-iojs
 gulp-jester
 gulp-jimp
+gulp-jimp2
 gulp-jinx-compiler
 gulp-jinx-inject
 gulp-jira-todo
@@ -20695,6 +20703,7 @@ gulpicon
 gulpify
 gulpir
 gulpist
+gulpit
 gulplog
 gulplug
 gulplug-browserify

@@ -1616,6 +1616,7 @@ rdb-tools
 rdbg
 rdbql
 rdce
+rdcli
 rdconfig
 rdcrypto
 rdd
@@ -2451,6 +2452,7 @@ react-dynform
 react-ease
 react-easing
 react-easy-datepicker
+react-easy-form
 react-easy-pagination
 react-easy-select
 react-easy-sortable-table
@@ -2499,6 +2501,7 @@ react-events
 react-everscroll
 react-evil-icons
 react-exif-image
+react-expandable-listview
 react-expandable-nav
 react-expanding-textarea
 react-experiments
@@ -3027,6 +3030,7 @@ react-lazyload
 react-lazyrender
 react-lazyrender-mixin
 react-lazysizes
+react-leafbox
 react-leaflet
 react-leaflet-geojson-cluster
 react-leaflet-lmt
@@ -3485,6 +3489,7 @@ react-native-image-progressbar
 react-native-immutable
 react-native-in-app-utils
 react-native-infinite-scroll-view
+react-native-instagram-oauth
 react-native-instagram-share
 react-native-intercom
 react-native-invertible-scroll-view
@@ -4674,6 +4679,7 @@ react-transform-debug-inspector
 react-transform-display-name
 react-transform-hmr
 react-transform-jspm-hmr
+react-transform-log-render
 react-transform-module-hot-stub
 react-transform-props
 react-transform-render-visualizer
@@ -5004,6 +5010,7 @@ reactively
 reactiveoberver-timesync
 reactiveobserver-client
 reactiveobserver-knockout
+reactiveobserver-timesync
 reactivis
 reactivity
 reactjs_koans
@@ -5441,6 +5448,7 @@ reaumur
 reave
 reaver
 reavetard
+reax
 rebar
 rebas
 rebas-datasource
@@ -6901,6 +6909,7 @@ registration-tools
 registrationadmin
 registro-zonajobs
 registry
+registry-mirror
 registry-static
 registry-status-pagelet
 registry-switch
@@ -11719,6 +11728,7 @@ rpc-common-wallet
 rpc-duplex-node
 rpc-http
 rpc-module
+rpc-multiauth
 rpc-multistream
 rpc-node
 rpc-objects

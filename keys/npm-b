@@ -5204,6 +5204,7 @@ blockchain-link
 blockchain-link-server
 blockchain-mongo
 blockchain-monitor
+blockchain-node
 blockchain-receive
 blockchain-wallet
 blockchain-wallet-client

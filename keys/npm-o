@@ -478,6 +478,7 @@ object-lens
 object-list
 object-listener
 object-log
+object-lookup
 object-loops
 object-manage
 object-manager
@@ -802,6 +803,7 @@ observ-stream
 observ-struct
 observ-thunk
 observ-toggle
+observ-transform
 observ-unwrap
 observ-users
 observ-value

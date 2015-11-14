@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/jeffrey/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/jeffrey/.npm/npm-bash-completion/1.0.0/package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/jeffrey/.npm/npm-bash-completion/1.0.0/package.tgz
+13 verbose folder .
+14 info prepublish npm-bash-completion@1.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/jeffrey/.npm/1f1177db-tar.lock
+17 silly lockFile 40b901cc-ash-completion-1-0-0-package-tgz tar:///home/jeffrey/.npm/npm-bash-completion/1.0.0/package.tgz
+18 verbose lock tar:///home/jeffrey/.npm/npm-bash-completion/1.0.0/package.tgz /home/jeffrey/.npm/40b901cc-ash-completion-1-0-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 40b901cc-ash-completion-1-0-0-package-tgz tar:///home/jeffrey/.npm/npm-bash-completion/1.0.0/package.tgz
+22 silly lockFile 40b901cc-ash-completion-1-0-0-package-tgz tar:///home/jeffrey/.npm/npm-bash-completion/1.0.0/package.tgz
+23 silly lockFile f41ea081-pm-bash-completion-1-0-0-package /home/jeffrey/.npm/npm-bash-completion/1.0.0/package
+24 verbose lock /home/jeffrey/.npm/npm-bash-completion/1.0.0/package /home/jeffrey/.npm/f41ea081-pm-bash-completion-1-0-0-package.lock
+25 silly lockFile f41ea081-pm-bash-completion-1-0-0-package /home/jeffrey/.npm/npm-bash-completion/1.0.0/package
+26 silly lockFile f41ea081-pm-bash-completion-1-0-0-package /home/jeffrey/.npm/npm-bash-completion/1.0.0/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'npm-bash-completion',
+29 silly publish   version: '1.0.0',
+29 silly publish   description: 'bash completion script for npm package names.',
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'git+https://github.com/Jephuff/npm-completion.git' },
+29 silly publish   keywords: [ 'bash', 'completion', 'npm', 'shell' ],
+29 silly publish   author: { name: 'Jeffrey Burt' },
+29 silly publish   license: 'ISC',
+29 silly publish   bugs: { url: 'https://github.com/Jephuff/npm-completion/issues' },
+29 silly publish   scripts:
+29 silly publish    { postinstall: 'npm-completion-setup',
+29 silly publish      preuninstall: 'npm-completion-uninstall' },
+29 silly publish   preferGlobal: true,
+29 silly publish   bin:
+29 silly publish    { 'npm-completion-setup': 'setup.sh',
+29 silly publish      'npm-completion-update': 'update.sh',
+29 silly publish      'npm-completion-uninstall': 'uninstall.sh' },
+29 silly publish   homepage: 'https://github.com/Jephuff/npm-completion#readme',
+29 silly publish   readme: '# npm-completion\nbash completion script for npm package names.\npackage list updated at 3am ET everyday\n\n## SETUP\n### manually\n#### install\nclone this repo\n```bash\n$ git clone https://github.com/Jephuff/npm-completion\n```\nrun setup script\n```bash\n$ ./npm-completion/setup.sh\n```\n#### update\nrun update script\n```bash\n$ ./npm-completion/update.sh\n```\n#### uninstall\nrun uninstall script\n```bash\n$ ./npm-completion/uninstall.sh\n```\n\n### npm\n#### install\n```bash\n$ npm i -g npm-completion\n```\n#### update\n```bash\n$ npm update -g npm-completion\n```\n\n#### uninstall\n```bash\n$ npm remove -g npm-completion\n```\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: 'edfa4ab0efae180dcdfbb56a07b8bacd49fa8246',
+29 silly publish   _id: 'npm-bash-completion@1.0.0',
+29 silly publish   _shasum: '38812f6d98194259a49b987a6341d0a43251241d',
+29 silly publish   _from: '.' }
+30 verbose request where is /npm-bash-completion
+31 verbose request registry http://registry.npmjs.org/
+32 verbose request id b644c3b76bfdf946
+33 verbose url raw /npm-bash-completion
+34 verbose url resolving [ 'http://registry.npmjs.org/', './npm-bash-completion' ]
+35 verbose url resolved http://registry.npmjs.org/npm-bash-completion
+36 verbose request where is http://registry.npmjs.org/npm-bash-completion
+37 info trying registry request attempt 1 at 13:34:50
+38 http PUT http://registry.npmjs.org/npm-bash-completion
+39 http 403 http://registry.npmjs.org/npm-bash-completion
+40 verbose headers { 'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '95',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Sat, 14 Nov 2015 18:34:04 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-jfk1026-JFK',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1447526022.200246,VS0,VE22162' }
+41 error publish Failed PUT 403
+42 error Error: "You cannot publish over the previously published version 1.0.0." : npm-bash-completion
+42 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+42 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+42 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Linux 3.13.0-49-generic
+45 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+46 error cwd /home/jeffrey/npm-completion
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]

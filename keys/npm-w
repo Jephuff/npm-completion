@@ -195,6 +195,7 @@ walk-as-promised
 walk-ast
 walk-back
 walk-dag
+walk-dir-sync
 walk-extra
 walk-folder-tree
 walk-fs
@@ -1666,6 +1667,7 @@ webpack-cleaner
 webpack-cleanup-plugin
 webpack-cli
 webpack-closure-compiler
+webpack-coc
 webpack-coffee-example
 webpack-combine-loaders
 webpack-compile-templates
@@ -1745,6 +1747,7 @@ webpack-partial
 webpack-path-rewriter
 webpack-php-mock
 webpack-pluck-plugin
+webpack-plugin-notifier
 webpack-polyfills-plugin
 webpack-postcss-tools
 webpack-progress-plugin
@@ -2828,6 +2831,7 @@ wiki-plugin-changes
 wiki-plugin-chart
 wiki-plugin-code
 wiki-plugin-code-ndn
+wiki-plugin-cytodemo
 wiki-plugin-data
 wiki-plugin-datscript
 wiki-plugin-efficiency
@@ -3013,6 +3017,7 @@ win-notify
 win-novelty
 win-nsga
 win-phylogeny
+win-ps
 win-publish
 win-query
 win-release

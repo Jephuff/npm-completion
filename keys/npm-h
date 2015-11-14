@@ -202,6 +202,7 @@ hage-desktop
 hagely
 hager-tool-iar_v4.10a
 hagi
+hagrid
 haha
 hai
 hai-dap-chai
@@ -881,6 +882,7 @@ hapi-massive
 hapi-meal
 hapi-mechanic
 hapi-medium
+hapi-method-change
 hapi-method-loader
 hapi-method-override
 hapi-method-routes
@@ -2896,6 +2898,7 @@ hexo-deployer-git
 hexo-deployer-heroku
 hexo-deployer-jsftp
 hexo-deployer-openshift
+hexo-deployer-qiniu
 hexo-deployer-rsync
 hexo-deployer-rsyncc
 hexo-deployer-s3
@@ -7008,6 +7011,7 @@ hubot-teamspeak
 hubot-teamspeak-fix
 hubot-teamspeak-track
 hubot-teamwork
+hubot-teeworlds
 hubot-telegram
 hubot-telegram-bot
 hubot-telegrambot

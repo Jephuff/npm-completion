@@ -1389,6 +1389,7 @@ tea-error
 tea-extend
 tea-fixtures
 tea-inherits
+tea-js
 tea-logger
 tea-macro
 tea-merge
@@ -3944,6 +3945,7 @@ thought
 thought-example
 thoughtify-error
 thoughtleader
+thoughtsforparis
 thousandprimes
 thr
 thrall
@@ -9003,6 +9005,7 @@ tvister
 tvm
 tvmaze
 tvmui
+tvnorm
 tvrage
 tvrage-x
 tvragejs

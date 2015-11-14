@@ -556,6 +556,7 @@ magicscript
 magicseaweed
 magicword
 magiczoom
+magik
 magik-server
 magikarp
 maginificent-monitor
@@ -1763,6 +1764,7 @@ markdown-it-headinganchor
 markdown-it-highlighted
 markdown-it-highlightjs
 markdown-it-html5-embed
+markdown-it-icon
 markdown-it-imsize
 markdown-it-ins
 markdown-it-ins-del
@@ -4496,6 +4498,7 @@ merkle-patricia-tree
 merkle-root-blockchain
 merkle-stream
 merkle-tree
+merkle-tree-stream
 merkle-utils
 merkledag-store
 merle
@@ -5112,6 +5115,7 @@ metalsmith-subsetfonts
 metalsmith-suitcss
 metalsmith-summary
 metalsmith-support-rho
+metalsmith-svg-sprite
 metalsmith-svgo
 metalsmith-swig-helpers
 metalsmith-tags
@@ -11868,6 +11872,7 @@ mucss
 mucuna
 mucus
 mud
+mudchat
 muddle
 muder
 mudjs

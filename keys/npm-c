@@ -2398,6 +2398,7 @@ censorify-julienben
 censorify-julio
 censorify-kaiman23
 censorify-leroysalih
+censorify-mattia-vio
 censorify-nico
 censorify-nk
 censorify-nlwy
@@ -3433,6 +3434,7 @@ chatbyvista
 chatc
 chatc-cli
 chatc-web
+chatcommand-parser
 chateau
 chatexample
 chathy
@@ -3640,6 +3642,7 @@ cheescake
 cheese
 cheese-cake
 cheesecake
+cheesecake-core
 cheesefist
 cheesy
 cheet.js
@@ -3826,6 +3829,7 @@ chickendinosaur-http
 chickendinosaur-packagebuilder
 chickendinosaur-utility
 chico
+chiedo
 chief
 chieftain
 chiffchaff
@@ -11407,6 +11411,7 @@ convert-to-pixels
 convert-units
 convert-vinyl-to-vfile
 convert.js
+convert2geojson
 converter
 converter-abratnap
 converter-csvtojson-cli
@@ -12810,6 +12815,7 @@ couchcache
 couchcmd
 couchdatastream
 couchdb
+couchdb_changes_handler
 couchdb_raw
 couchdb_sync
 couchdb_sync_nano

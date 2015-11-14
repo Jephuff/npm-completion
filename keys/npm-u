@@ -412,6 +412,7 @@ ui-mobile-tab-bar
 ui-module
 ui-navbar
 ui-navbar-demo
+ui-navigator-service
 ui-number-input
 ui-pago-tarjeta-credito
 ui-responsive-toolbelt
