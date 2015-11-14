@@ -8,5 +8,5 @@ $ git clone https://github.com/Jephuff/npm-bash-completion
 
 run setup script
 ```bash
-$ npm-bash-completion/setup.sh
+$ ./npm-bash-completion/setup.sh
 ```
