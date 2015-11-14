@@ -17,10 +17,6 @@
   "bugs": {
     "url": "https://github.com/Jephuff/npm-completion/issues"
   },
-  "scripts": {
-    "postinstall": "npm-completion-setup",
-    "preuninstall": "npm-completion-uninstall"
-  },
   "preferGlobal": true,
   "bin": {
     "npm-completion-setup": "setup",
