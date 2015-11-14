@@ -2249,6 +2249,7 @@ file-manifest
 file-map
 file-match
 file-merge
+file-meta
 file-mime
 file-monitor
 file-move

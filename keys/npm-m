@@ -1913,6 +1913,7 @@ marked-prettyprint
 marked-promise
 marked-renderer
 marked-renderer-codespan
+marked-renderer-mdl
 marked-sanitized
 marked-sections
 marked-stream
@@ -10559,6 +10560,7 @@ monoid-min
 monoid-std-deviation
 monolith
 monolog
+monolog.js
 monologue
 monologue.js
 monome
@@ -13419,6 +13421,7 @@ mytream-echo
 mytsdtask
 mytype
 myui-core
+myuniquename
 myuppercase
 myurltopdf
 myutil

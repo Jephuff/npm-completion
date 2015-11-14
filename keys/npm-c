@@ -12475,6 +12475,7 @@ core-util
 core-util-is
 core-utilities
 core-utils
+core-x
 core-yammer-circuit-breaker
 core.arity
 core.check

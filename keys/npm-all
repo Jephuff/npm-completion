@@ -34131,6 +34131,7 @@ core-util
 core-util-is
 core-utilities
 core-utils
+core-x
 core-yammer-circuit-breaker
 core.arity
 core.check
@@ -59000,6 +59001,7 @@ file-manifest
 file-map
 file-match
 file-merge
+file-meta
 file-mime
 file-monitor
 file-move
@@ -67977,6 +67979,7 @@ generator-gulp-basic-nw
 generator-gulp-boilerplate
 generator-gulp-bootstrap
 generator-gulp-bootstrap3
+generator-gulp-browserify
 generator-gulp-coffee-mocha-testem
 generator-gulp-compass-neat
 generator-gulp-express-webapp
@@ -82890,6 +82893,7 @@ gulp-cond
 gulp-confidence
 gulp-config
 gulp-config-apsis
+gulp-config-bootstrap
 gulp-config-checker
 gulp-config-pattern-lab
 gulp-config-sass
@@ -84929,6 +84933,7 @@ gulp-reduce-file
 gulp-reduce-to-file
 gulp-redust
 gulp-ref-hash
+gulp-reference
 gulp-refuseuse
 gulp-regenerator
 gulp-regex-rename
@@ -89434,6 +89439,7 @@ heya-unit
 heya-utils
 heyhachi
 heyhey
+heykindle-createmobi
 heyo
 heysdktools
 heyu
@@ -104460,6 +104466,7 @@ json-replace
 json-request
 json-request-validation
 json-requester
+json-required-fields
 json-resources
 json-response
 json-response-checker
@@ -119794,6 +119801,7 @@ marked-prettyprint
 marked-promise
 marked-renderer
 marked-renderer-codespan
+marked-renderer-mdl
 marked-sanitized
 marked-sections
 marked-stream
@@ -128440,6 +128448,7 @@ monoid-min
 monoid-std-deviation
 monolith
 monolog
+monolog.js
 monologue
 monologue.js
 monome
@@ -131300,6 +131309,7 @@ mytream-echo
 mytsdtask
 mytype
 myui-core
+myuniquename
 myuppercase
 myurltopdf
 myutil
@@ -142823,6 +142833,7 @@ npm-walk-through
 npm-watch
 npm-watch-no-prefix
 npm-web-api
+npm-webpack
 npm-weekly-md
 npm-whatis
 npm-which
@@ -199689,6 +199700,7 @@ total-plugin
 total-recall
 total-sorta
 total.js
+totallynotavirustrustmeimadolphin
 totalvue
 totami.forecast
 totango

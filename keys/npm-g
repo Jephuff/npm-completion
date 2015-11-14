@@ -2633,6 +2633,7 @@ generator-gulp-basic-nw
 generator-gulp-boilerplate
 generator-gulp-bootstrap
 generator-gulp-bootstrap3
+generator-gulp-browserify
 generator-gulp-coffee-mocha-testem
 generator-gulp-compass-neat
 generator-gulp-express-webapp
@@ -17546,6 +17547,7 @@ gulp-cond
 gulp-confidence
 gulp-config
 gulp-config-apsis
+gulp-config-bootstrap
 gulp-config-checker
 gulp-config-pattern-lab
 gulp-config-sass
@@ -19585,6 +19587,7 @@ gulp-reduce-file
 gulp-reduce-to-file
 gulp-redust
 gulp-ref-hash
+gulp-reference
 gulp-refuseuse
 gulp-regenerator
 gulp-regex-rename
