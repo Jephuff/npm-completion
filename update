@@ -1,0 +1,7 @@
+#!/bin/bash
+cd "$(dirname $([ -L "${BASH_SOURCE[0]}" ] && readlink -f "${BASH_SOURCE[0]}" || echo "${BASH_SOURCE[0]}"))"
+if [ -d .git ]; then
+	git pull
+else
+	npm update -g npm-completion
+fi

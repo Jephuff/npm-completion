@@ -23,9 +23,9 @@
   },
   "preferGlobal": true,
   "bin": {
-    "npm-completion-setup": "setup.sh",
-    "npm-completion-update": "update.sh",
-    "npm-completion-uninstall": "uninstall.sh"
+    "npm-completion-setup": "setup",
+    "npm-completion-update": "update",
+    "npm-completion-uninstall": "uninstall"
   },
   "homepage": "https://github.com/Jephuff/npm-completion#readme"
 }
