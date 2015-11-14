@@ -1,5 +1,5 @@
 {
-  "name": "npm-bash-completion",
+  "name": "npm-completion",
   "version": "1.0.1",
   "description": "bash completion script for npm package names.",
   "repository": {
