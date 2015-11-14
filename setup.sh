@@ -11,6 +11,7 @@ if [ ! -z $source_file ]; then
 	bash_comment="# added for npm-completion https://github.com/Jephuff/npm-bash-completion"
 	bash_variable="PATH_TO_NPM_COMPLETION=\"$npm_path\""
 	npm_source=". \$PATH_TO_NPM_COMPLETION/npm-completion.sh"
+	update_alias="alias npm-completion-update=\"pushd $npm_path && git pull && popd\""
 
 	grep -F "$bash_comment" ~/$source_file > /dev/null
 	if [ $? != 0 ]; then
@@ -25,6 +26,11 @@ if [ ! -z $source_file ]; then
 	grep -F "$npm_source" ~/$source_file > /dev/null
 	if [ $? != 0 ]; then
 		printf "\n$npm_source" >> ~/$source_file
+	fi
+
+	grep -F "$update_alias" ~/$source_file > /dev/null
+	if [ $? != 0 ]; then
+		printf "\n$update_alias" >> ~/$source_file
 	fi
 fi
 
