@@ -1296,6 +1296,7 @@ feathers-blueprints
 feathers-client
 feathers-cluster
 feathers-commons
+feathers-configuration
 feathers-errors
 feathers-hooks
 feathers-knex
@@ -3001,6 +3002,7 @@ firebase-validate-key
 firebase-where
 firebase-work
 firebase-work-queue
+firebase.fuel
 firebird
 firebirdsql
 fireblog
@@ -5981,6 +5983,7 @@ form-napper
 form-obj
 form-options-helper
 form-params
+form-parse
 form-populate
 form-schema
 form-scraper

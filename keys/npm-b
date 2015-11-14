@@ -398,6 +398,7 @@ babel-plugin-transform-react-inline-elements
 babel-plugin-transform-react-jsx
 babel-plugin-transform-react-jsx-compat
 babel-plugin-transform-react-jsx-source
+babel-plugin-transform-react-stateless-component-name
 babel-plugin-transform-regenerator
 babel-plugin-transform-remove-console
 babel-plugin-transform-remove-debugger

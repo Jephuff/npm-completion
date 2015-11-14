@@ -793,6 +793,7 @@ edc-jpeg
 edc-mv
 edc-pipe-to-buffer
 edc-readfile
+edc-rm
 edc-start-capture-image
 edc-start-file-checksum
 edc-start-file-checksums
@@ -1781,6 +1782,7 @@ element-core
 element-data-store
 element-from-absolute-point
 element-from-point
+element-height
 element-height-equalizer
 element-kit
 element-list
@@ -7709,6 +7711,7 @@ eventuate-chainable
 eventuate-core
 eventuate-filter
 eventuate-map
+eventuate-next
 eventuate-once
 eventuate-reduce
 eventuate-stream

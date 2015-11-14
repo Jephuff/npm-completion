@@ -5022,6 +5022,7 @@ node-fastbill
 node-fastbill-automatic
 node-fastcgi
 node-fastcoin
+node-fastlane
 node-fastpass
 node-fb
 node-fb-sample
@@ -5876,6 +5877,7 @@ node-loadbalancer
 node-loader
 node-local
 node-local-auth
+node-local-tunnel
 node-localdb
 node-localhost
 node-localip
@@ -10885,6 +10887,7 @@ npm-available
 npm-awesome
 npm-babel-example
 npm-badge
+npm-bash-completion
 npm-beta
 npm-bin
 npm-boilerplate
@@ -10938,6 +10941,7 @@ npm-commands-test
 npm-comp-stat-www
 npm-compact
 npm-compat
+npm-completion
 npm-config
 npm-copy
 npm-count

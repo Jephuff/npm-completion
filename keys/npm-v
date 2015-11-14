@@ -1876,6 +1876,7 @@ virtex
 virtex-component
 virtex-dom
 virtex-element
+virtex-local
 virtex-string
 virtjs
 virtual

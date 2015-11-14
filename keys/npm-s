@@ -61,6 +61,7 @@ s2s3
 s2serial
 s2server
 s3
+s3_backup
 s3_path_signer
 s3-access-log-parser
 s3-asset-uploader
@@ -5244,6 +5245,7 @@ shared-store
 shared-utils
 shared-views
 shared-worker-loader
+shared.js
 sharedb
 sharedb-access
 sharedb-hooks
@@ -7373,6 +7375,7 @@ simplecache
 simplecached
 simplecached-molon
 simplecalculation026012
+simplecalculation1181340
 simplecalculation690920
 simplecalculator
 simplecards
@@ -12567,6 +12570,7 @@ sql-create-table-to-json
 sql-ddl-sync
 sql-engine
 sql-es
+sql-escape
 sql-fixtures
 sql-from-mongo
 sql-generate
@@ -16857,6 +16861,7 @@ sum-of-two-numbers
 sum-product
 sum-ratios
 sum-scale
+sum-stream
 sum-up
 sum.js
 sumac

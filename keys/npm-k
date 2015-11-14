@@ -2621,12 +2621,14 @@ ko-mustache-loader
 ko-mustached
 ko-observable
 ko-render-html
+ko-sleep
 ko-spellchecker
 ko-stream
 ko-string-template
 ko-swipe
 ko-templated
 ko-test
+ko-timeout
 ko-validation
 ko.types
 koa

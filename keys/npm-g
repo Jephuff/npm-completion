@@ -2132,6 +2132,7 @@ generator-drupalformat
 generator-drupalmodule
 generator-drupalpackage
 generator-drupaltheme
+generator-drupalvm
 generator-drywall
 generator-ds-mod
 generator-dsi-express
@@ -17226,6 +17227,7 @@ gulp-blueprint-typescript
 gulp-blueprint-watch
 gulp-boilerplate
 gulp-boilerplate-agufranov
+gulp-boilerplate-test-name
 gulp-bolt-tpl
 gulp-bom
 gulp-book

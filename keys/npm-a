@@ -3751,6 +3751,7 @@ angular_d3
 angular_record_store
 angular_test
 angular_web
+angular-2-redux
 angular-360-no-scope
 angular-access-control
 angular-action
@@ -8904,6 +8905,7 @@ async-extend-defaults
 async-filter
 async-filter-each
 async-flat-map
+async-flattner
 async-flow
 async-for
 async-foreach
