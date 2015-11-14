@@ -1,7 +1,8 @@
 _npm_completion () {
   CUR=${COMP_WORDS[COMP_CWORD]}
-  if [ $3 = "i" -o $3 = "install" ]; then
-    COMPREPLY=( $( compgen -W "$(cat $PATH_TO_NPM_COMPLETION/keys/npm-$(echo $CUR | head -c 1))" -- $CUR ) )
+  FIRST_LETTER=$(echo $CUR | head -c 1)
+  if [ $3 = "install" ] && [ ! -z $FIRST_LETTER ]; then
+    COMPREPLY=( $( compgen -W "$(cat $PATH_TO_NPM_COMPLETION/keys/npm-$FIRST_LETTER)" -- $CUR ) )
   elif [ $3 = "remove" ]; then
     COMPREPLY=( $( compgen -W "$(ls ~/.npm 2>/dev/null)" -- $CUR ) )
   else
