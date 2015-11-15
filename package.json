@@ -18,6 +18,10 @@
     "url": "https://github.com/Jephuff/npm-completion/issues"
   },
   "preferGlobal": true,
+  "scripts": {
+    "postinstall": "./setup",
+    "preuninstall": "./uninstall"
+  },
   "bin": {
     "npm-completion-setup": "setup",
     "npm-completion-update": "update",

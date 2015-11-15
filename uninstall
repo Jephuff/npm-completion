@@ -1,5 +1,15 @@
 #!/bin/bash
-npm_path="$( cd "$(dirname $([ -L "${BASH_SOURCE[0]}" ] && readlink -f "${BASH_SOURCE[0]}" || echo "${BASH_SOURCE[0]}"))" && pwd )"
+TARGET_FILE=${BASH_SOURCE[0]}
+cd "dirname $TARGET_FILE"
+TARGET_FILE=`basename $TARGET_FILE`
+while [ -L "$TARGET_FILE" ]
+do
+    TARGET_FILE=`readlink $TARGET_FILE`
+    cd `dirname $TARGET_FILE`
+    TARGET_FILE=`basename $TARGET_FILE`
+done
+PHYS_DIR=`pwd -P`
+npm_path=`dirname $PHYS_DIR/$TARGET_FILE`
 
 user=$(who am i | awk '{print $1}')
 if [ -e /home/$user/.bashrc ]; then
