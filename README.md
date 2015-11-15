@@ -23,6 +23,9 @@ $ ./npm-completion/update.sh
 #### install
 ```bash
 $ npm i -g npm-completion
+```
+if you use sudo to install, you will need to run the setup script manually
+```bash
 $ npm-completion-setup
 ```
 #### update
