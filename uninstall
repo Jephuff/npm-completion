@@ -1,6 +1,6 @@
 #!/bin/bash
 TARGET_FILE=${BASH_SOURCE[0]}
-cd "dirname $TARGET_FILE"
+cd `dirname $TARGET_FILE`
 TARGET_FILE=`basename $TARGET_FILE`
 while [ -L "$TARGET_FILE" ]
 do
