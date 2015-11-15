@@ -23,10 +23,9 @@ $ ./npm-completion/update.sh
 #### install
 ```bash
 $ npm i -g npm-completion
-
+$ npm-completion-setup
 ```
 #### update
 ```bash
 $ npm update -g npm-completion
-$ npm-completion-setup
 ```
