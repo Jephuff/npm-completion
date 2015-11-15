@@ -2789,6 +2789,7 @@ cfn-api-gateway-restapi
 cfn-config
 cfn-deployer
 cfn-env
+cfn-include
 cfn-lambda
 cfn-metadata
 cfn-stack-event-stream
@@ -3533,6 +3534,7 @@ check-running
 check-site-for
 check-sorted
 check-source-formatting
+check-stale-node-modules
 check-style
 check-sum
 check-that
@@ -7668,6 +7670,7 @@ coincident
 coind-client
 coindesk-api
 coinding
+coindust
 coined
 coined-uro
 coinedup
@@ -9717,6 +9720,7 @@ conduttore
 condux
 condux-client
 condvar
+cone
 conekta
 conekta-api
 conekta-node
@@ -11985,6 +11989,7 @@ cordova-plugin-connectsdk
 cordova-plugin-console
 cordova-plugin-console-test
 cordova-plugin-contacts
+cordova-plugin-contacts-ios9
 cordova-plugin-contacts-list
 cordova-plugin-contacts-phonenumbers
 cordova-plugin-couchbase-lite
@@ -15872,6 +15877,7 @@ cycle-time-travel
 cycle-undo
 cycle-values
 cycle-vtree-switcher
+cycle-x
 cyclecounter
 cyclejs
 cyclejs-group

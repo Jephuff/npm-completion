@@ -3137,6 +3137,7 @@ lifejs
 lifeline
 lifeofcat
 liferaft
+liferay-client-nodejs
 liferay-connector
 liferay-ddmtool
 liferay-forms-ui-tests
@@ -4979,6 +4980,7 @@ locate-ie
 locate-java-home
 locate-safari
 locate-satellite
+locater
 locatify
 location
 location-bar
@@ -6189,6 +6191,7 @@ looks
 looks-like
 looks-same
 lookup
+lookup-closest-locale
 lookup-deps
 lookup-grid
 lookup-multicast-dns

@@ -5546,6 +5546,7 @@ docker-cyg-env
 docker-deploy-persist
 docker-discover
 docker-dns
+docker-env
 docker-etcd-registrator
 docker-event-log
 docker-event-stream
@@ -6104,6 +6105,7 @@ document-shim
 document-store
 document-tfidf
 document-theme-daux-blue
+document-to-json
 document-watch
 document-write-html
 document.head

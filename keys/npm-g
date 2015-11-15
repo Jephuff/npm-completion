@@ -4368,6 +4368,7 @@ generator-simplesite
 generator-simplestatic
 generator-simplewebapp
 generator-sinatra
+generator-sinatra-bootstrap
 generator-sinbad
 generator-siq-module
 generator-sisyphus-game
@@ -5183,9 +5184,11 @@ genoma
 genome
 genome-parser
 genomics
+genoset-116
 genoset-122
 genoset-123
 genoset-126
+genoset-293
 genoset-alcohol-flush-reaction
 genoset-chrons-disease
 genoset-chronsdisease
@@ -14090,6 +14093,7 @@ grunt-morph-pack
 grunt-motion-build
 grunt-motleycss
 grunt-mount
+grunt-mountebank
 grunt-mout
 grunt-move-cdn-block
 grunt-movehtml

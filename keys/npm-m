@@ -8453,6 +8453,8 @@ modern-diff
 modern-javascript-presentation
 modern-random-ua
 modern-router
+modern-standard
+modern-standard-ide-plugin-atom
 modern-syslog
 modern-web-dev-build
 modern-xhr-wrapper
@@ -10006,6 +10008,7 @@ mongoose-notifiable
 mongoose-notifier
 mongoose-number
 mongoose-oauth-store-multi-tenant
+mongoose-object-stream
 mongoose-objectpath
 mongoose-observer
 mongoose-opengraph

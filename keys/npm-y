@@ -589,6 +589,7 @@ ycstruct
 yctest
 yd
 yd-fanyi
+ydea-delivery
 ydeniz
 ydev
 ydfy
@@ -706,6 +707,7 @@ yeoman-meteor
 yeoman-option-or-prompt
 yeoman-plugin-cache
 yeoman-startr
+yeoman-testbase
 yeoman-util
 yeoman-utils
 yeoman-welcome

@@ -3004,6 +3004,7 @@ firebase-where
 firebase-work
 firebase-work-queue
 firebase.fuel
+firebase.starter
 firebird
 firebirdsql
 fireblog
@@ -3723,6 +3724,7 @@ fis3-deploy-encoding
 fis3-deploy-filter-packaged-file
 fis3-deploy-ftp
 fis3-deploy-http-push
+fis3-deploy-hxq-push
 fis3-deploy-local-deliver
 fis3-deploy-local-supply
 fis3-deploy-offpack
@@ -3783,6 +3785,7 @@ fis3-plugin-relative
 fis3-postpackager-autoloader
 fis3-postpackager-boostnative
 fis3-postpackager-combo
+fis3-postpackager-hxq-load-file
 fis3-postpackager-iconfont
 fis3-postpackager-loader
 fis3-postpackager-open
@@ -3792,6 +3795,7 @@ fis3-postpackager-yymonitor
 fis3-postprocessor-extras_uri
 fis3-postprocessor-href-locate
 fis3-postprocessor-html-django
+fis3-postprocessor-hxq-parse-cmd
 fis3-postprocessor-mark-image-sprite
 fis3-postprocessor-rjy-template
 fis3-postprocessor-wdd-async
@@ -3799,6 +3803,7 @@ fis3-postprocessor-yymonitor
 fis3-prepackager-dot-compiler
 fis3-preprocessor-extlang
 fis3-preprocessor-fis-parser-html
+fis3-preprocessor-hxq-template-replace
 fis3-preprocessor-parserhtml
 fis3-preprocessor-replace
 fis3-preprocessor-rjy-template
@@ -4066,6 +4071,7 @@ fizzbuzz-gss
 fizzbuzz-hypermedia-server
 fizzbuzz-stream
 fizzbuzz-training
+fizzbuzz.js
 fizzion
 fizzle
 fizzy
@@ -6053,8 +6059,15 @@ format-location
 format-loggly
 format-measurement
 format-message
+format-message-babel-util
+format-message-cli
 format-message-core
+format-message-formats
+format-message-generate-id
+format-message-interpret
 format-message-loader
+format-message-parse
+format-message-print
 format-microformat
 format-money
 format-number
@@ -8098,6 +8111,7 @@ function-code
 function-comment
 function-composer
 function-create
+function-done
 function-enhancements
 function-extended
 function-extractor

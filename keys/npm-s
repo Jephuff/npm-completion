@@ -2670,6 +2670,7 @@ scriptserver-command
 scriptserver-event
 scriptserver-helpers
 scriptserver-json
+scriptserver-portal
 scriptsharp
 scriptsp
 scriptsplugger
@@ -3376,8 +3377,10 @@ seldom.js
 seldoo
 seleccion
 select
+select-all-hook
 select-box
 select-dom
+select-hook
 select-hose
 select-keys
 select-line
@@ -4628,6 +4631,7 @@ service-registry-client
 service-registry-wrapper
 service-report-manager
 service-reporter
+service-request
 service-router
 service-routes
 service-runner
@@ -13440,6 +13444,7 @@ standalone-treevis
 standard
 standard-analytics-terms
 standard-api-response
+standard-babel-lint
 standard-deviation
 standard-deviation-stream
 standard-engine
@@ -14492,6 +14497,7 @@ stimpack
 stimpy
 stimulsoft-reports-js
 sting
+stinger
 stingray
 stingreverse
 stink
@@ -15197,6 +15203,7 @@ stream-transform-json2data
 stream-transform-line2string
 stream-transform-parse2line
 stream-transform-string2line
+stream-transform-tokens
 stream-transformer
 stream-try-catch
 stream-tweets
@@ -16296,6 +16303,7 @@ stylerefs
 styles
 styles-nebraska-global
 styles.js
+stylescope
 stylescript
 styleselect
 stylesheet
@@ -16558,6 +16566,7 @@ submersible
 submission
 submissions
 submit
+submit-form
 submit-sitemap
 submitter
 submix

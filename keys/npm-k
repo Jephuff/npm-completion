@@ -3965,6 +3965,7 @@ kurento-module-pointerdetector
 kurento-utils
 kurl
 kuromoji
+kuromoji-cli
 kuromojin
 kurry
 kurry-arrays
@@ -4001,6 +4002,7 @@ kuzzle-plugin-logger
 kuzzle-sdk
 kv
 kv-array
+kv-cache-manager
 kv-common
 kv-github-example
 kv-redis

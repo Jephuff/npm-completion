@@ -207,6 +207,7 @@ babel-plugin-extends-error
 babel-plugin-extensible-destructuring
 babel-plugin-external-helpers
 babel-plugin-external-helpers-2
+babel-plugin-extract-format-message
 babel-plugin-feature-flags
 babel-plugin-filter-imports
 babel-plugin-flow-comments
@@ -377,6 +378,7 @@ babel-plugin-transform-eval
 babel-plugin-transform-exponentiation-operator
 babel-plugin-transform-export-extensions
 babel-plugin-transform-flow-strip-types
+babel-plugin-transform-format-message
 babel-plugin-transform-function-bind
 babel-plugin-transform-import-extension-es6-to-js
 babel-plugin-transform-inline-environment-variables
@@ -398,6 +400,7 @@ babel-plugin-transform-react-inline-elements
 babel-plugin-transform-react-jsx
 babel-plugin-transform-react-jsx-compat
 babel-plugin-transform-react-jsx-source
+babel-plugin-transform-react-require
 babel-plugin-transform-react-stateless-component-name
 babel-plugin-transform-regenerator
 babel-plugin-transform-remove-console
@@ -2499,6 +2502,7 @@ bbs-2ch-parser
 bbs-2ch-url
 bbscaff
 bbservos
+bbt
 bbtest
 bbtoofx
 bbuf
@@ -2763,6 +2767,7 @@ beautiful
 beautiful-docs
 beautiful-lies
 beautiful-pad
+beautiful-piano
 beautify-benchmark
 beautify-css
 beautify-with-words
@@ -6141,6 +6146,7 @@ bookshelf-pagemaker
 bookshelf-paginator
 bookshelf-paranoia
 bookshelf-promise
+bookshelf-registry
 bookshelf-relationships
 bookshelf-repl
 bookshelf-revalidator
@@ -7408,6 +7414,7 @@ brill-pos-tagger
 brill-tests
 brill.js
 brim
+brimstone
 brindille-metas
 brindille-preloader
 brindille-resize
@@ -9648,6 +9655,7 @@ buzzard
 buzzfeed-headlines
 buzzhx
 buzzin
+buzzing-pixel-assemble-less
 buzzphrase
 buzzwordjs
 buzzwords

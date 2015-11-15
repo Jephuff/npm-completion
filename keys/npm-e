@@ -615,6 +615,7 @@ echarts-x
 echartsjs
 echc
 echelon
+echeveria
 echidna-manifester
 echint
 echo
@@ -791,6 +792,7 @@ edc-cp
 edc-file-checksums
 edc-jpeg
 edc-mv
+edc-offload
 edc-pipe-to-buffer
 edc-readfile
 edc-rm
@@ -6643,6 +6645,7 @@ eslint-jenkns-formatter
 eslint-json
 eslint-jsx
 eslint-loader
+eslint-lockdown
 eslint-md
 eslint-myrules-manager
 eslint-nibble

@@ -4531,6 +4531,7 @@ json-honey
 json-hpack
 json-htmlize
 json-http
+json-http-proxy
 json-human
 json-human-buffer
 json-i18n

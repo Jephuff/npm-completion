@@ -2954,6 +2954,7 @@ wildfire-for-js
 wildgeo
 wildglob
 wildland-styles-generator
+wildmap
 wildmatch
 wildpad
 wildstring
@@ -3059,6 +3060,7 @@ wind-parser
 wind-reactive
 wind-startup
 wind-viewmodel
+wind-youtest
 windalser1
 windbreaker
 windc
@@ -4407,6 +4409,7 @@ wp2md
 wpa_i3bar
 wpa_state
 wpacker
+wpageviews
 wpautop
 wpcodingchallenge
 wpcom

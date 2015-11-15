@@ -1231,6 +1231,8 @@ rasputin
 rasta
 raster
 raster-eyes
+rasterizeelement
+rasterizeelement.js
 rasterizehtml
 rastreiojs
 rasync
@@ -1713,6 +1715,8 @@ re-ontology
 re-pair
 re-passport
 re-require
+re-require-module
+re-require2
 re-stream
 re-structure
 re-tag
@@ -2154,6 +2158,7 @@ react-coffee-elements
 react-coffee-timer
 react-colgroup
 react-collapse
+react-collapse-cjr
 react-collapsible
 react-collapsible-mixin
 react-collider
@@ -2481,6 +2486,7 @@ react-embedded-browser
 react-embedded-twitter-timeline
 react-emoji
 react-emoji-keyboard
+react-emojione
 react-engine
 react-env
 react-error-suppression
@@ -3968,6 +3974,7 @@ react-progress-hud
 react-progress-label
 react-progressbar
 react-progressbar.js
+react-progressive
 react-prop-once
 react-prop-schema
 react-prop-types
@@ -4034,6 +4041,7 @@ react-ratchet
 react-rater
 react-rating
 react-rdt
+react-reach
 react-reaction
 react-reactive-class
 react-readalong-component
@@ -5535,6 +5543,7 @@ receptus
 receptus-algorithms
 recess
 recess-imprt-css
+recess-jairaj
 rechain
 rechart
 recharts

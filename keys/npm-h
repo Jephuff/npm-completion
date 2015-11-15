@@ -2130,6 +2130,7 @@ heidelberg
 heidi
 heidihx-api
 heifer
+height
 heightmap
 heightmap-contours
 heightmap-mesher
@@ -3983,6 +3984,7 @@ homebridge-telldus
 homebridge-temperature-file
 homebridge-thermostat
 homebridge-wemo
+homebridge-wink
 homebridge-wireless-sensor-tag
 homebrutube
 homeconf
@@ -6519,6 +6521,7 @@ hubot-maid
 hubot-mail
 hubot-mail-notifier
 hubot-mailchimp
+hubot-malta
 hubot-mandrill
 hubot-map-kor
 hubot-maps
@@ -6751,6 +6754,7 @@ hubot-redis-brain
 hubot-redisred
 hubot-redmine
 hubot-redmine-notifier
+hubot-redmine-xnotifier
 hubot-regex
 hubot-rekt
 hubot-reload-scripts

@@ -6941,6 +6941,7 @@ node-red-contrib-pjlink
 node-red-contrib-play-audio
 node-red-contrib-postgres
 node-red-contrib-powermate
+node-red-contrib-primitives
 node-red-contrib-pubnub
 node-red-contrib-radian6
 node-red-contrib-rcswitch
@@ -6971,6 +6972,7 @@ node-red-contrib-sparkcore
 node-red-contrib-splitter
 node-red-contrib-sqlite
 node-red-contrib-ssdp-discover
+node-red-contrib-strings
 node-red-contrib-sunevents
 node-red-contrib-sunpos
 node-red-contrib-susi
