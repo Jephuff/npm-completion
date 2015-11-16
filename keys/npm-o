@@ -2200,6 +2200,7 @@ openerp
 openex
 openex-promises
 openexchangerates-api
+openf
 openfalcon-perfcounter
 openfec
 openfin-cli
@@ -2304,6 +2305,7 @@ openpublish-state
 openpublish-state-engine
 openrecord
 openrecord-extjs
+openrefine
 openrest
 openrosa-form-submission-middleware
 openrosa-formlist

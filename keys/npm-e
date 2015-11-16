@@ -675,6 +675,7 @@ eclib
 eclint
 eclipse
 eclipse-flux
+eclipse-mob
 ecliptic-style
 ecm-model
 ecma-ast
@@ -794,6 +795,7 @@ edc-jpeg
 edc-mv
 edc-offload
 edc-pipe-to-buffer
+edc-pluck-push
 edc-readfile
 edc-rm
 edc-start-capture-image
@@ -961,6 +963,7 @@ editorsnotes-md
 editr
 editrobot
 editrowform
+edj
 edje
 edjes
 edm-errorlogger
@@ -1652,6 +1655,7 @@ electron-gh-releases
 electron-gh-releases-updater
 electron-google-oauth
 electron-hot
+electron-html-to
 electron-init
 electron-installer
 electron-installer-dmg
@@ -1733,10 +1737,12 @@ electron-window-state
 electron-windows-installer
 electron-winstontransports
 electron-workers
+electron-wrapper
 electron-zip-packager
 electroner
 electronic-config
 electronify
+electronify-server
 electronvolt
 electroshot
 electrum
@@ -3107,6 +3113,7 @@ ember-cli-nvd3
 ember-cli-nw
 ember-cli-nwjs
 ember-cli-observe-all
+ember-cli-octicons
 ember-cli-offline-js
 ember-cli-ohmyval
 ember-cli-ololo
@@ -3885,6 +3892,7 @@ ember-pods
 ember-pods-shared
 ember-poetic-crud-mixins
 ember-pollett
+ember-polyfill-for-tests
 ember-polymer
 ember-pop-over
 ember-popup
@@ -5040,6 +5048,7 @@ entropy.js
 entropyjs
 entrospect
 entry
+entry-loader
 entry-manifest-webpack-plugin
 entry-points
 entrypoint
@@ -5157,6 +5166,7 @@ envirofig
 environ
 environment
 environment-config
+environment-identifier
 environment-override
 environment-vars
 environmental
@@ -6189,6 +6199,7 @@ escodegen-ts
 escodegen-wallaby
 escodegen.jsx
 escolha-file-open
+escolha-http
 escolha-intent
 escolha-open-ios
 escolha-speech
@@ -6455,6 +6466,7 @@ eslint-config-littlebits
 eslint-config-loansolutions
 eslint-config-lob
 eslint-config-loke
+eslint-config-lotic
 eslint-config-madewithlove
 eslint-config-makotot
 eslint-config-mapbox
@@ -6692,6 +6704,7 @@ eslint-plugin-extjs
 eslint-plugin-fasec
 eslint-plugin-filenames
 eslint-plugin-filesize
+eslint-plugin-flow-vars
 eslint-plugin-flowtype
 eslint-plugin-format-message
 eslint-plugin-formatting
@@ -6777,6 +6790,7 @@ eslint-plugin-riot
 eslint-plugin-runtime-internal
 eslint-plugin-safe-regex
 eslint-plugin-scanjs-rules
+eslint-plugin-security
 eslint-plugin-segment-ember-actions
 eslint-plugin-semantic-naming
 eslint-plugin-shadow-exception
@@ -7606,6 +7620,7 @@ eventide
 eventie
 eventify
 eventify-js
+eventing-bus
 eventist
 eventium
 eventize
@@ -8033,6 +8048,7 @@ exclaimify
 exclamation
 exclass
 exclfs
+exclserver-api
 exclude
 excludify
 exclusion-manager
@@ -8225,6 +8241,7 @@ exists-file
 exists-on-npm
 exists-patch
 exists-sync
+existy
 exit
 exit-code
 exit-error

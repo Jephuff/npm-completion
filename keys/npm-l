@@ -1019,6 +1019,7 @@ lazy-extendable
 lazy-filter-stream
 lazy-flatten-stream
 lazy-flow
+lazy-flow-at
 lazy-fs
 lazy-functions
 lazy-g-cli
@@ -1495,6 +1496,7 @@ leaflet-tracksymbol
 leaflet-transitionedicon
 leaflet-transitivelayer
 leaflet-usermarker
+leaflet-virtual-grid
 leaflet-weathericonslayer
 leaflet-wikipedia
 leaflet-wms-bgbuffer
@@ -1652,6 +1654,7 @@ learnnode_e1
 learnnodeserver
 learnnpmpublish
 learnreact
+learnrx
 learnserversidejavascript
 learnyoucouchdb
 learnyoukoa
@@ -2329,6 +2332,7 @@ level-enumerate
 level-errors
 level-events
 level-exists
+level-explore
 level-export
 level-fact-base
 level-fancy
@@ -3400,6 +3404,7 @@ limelight_proxy
 limelight-api
 limelight-crm-api
 limelight-purge-api
+limelight-utils
 limelightcrmsdk
 limeninja-errors
 limerun
@@ -3867,6 +3872,7 @@ linux-lockscreen
 linux-mobile-connection
 linux-mountutils
 linux-ns
+linux-online-status
 linux-open
 linux-process
 linux-scanner
@@ -5098,6 +5104,7 @@ locomotive-jugglingdb
 locomotive-mongoose
 locomotive-primus
 loconf
+locrypt
 locu
 locum
 locup
@@ -5609,6 +5616,7 @@ log1p
 log2
 log2console
 log2json
+log2mongo
 log2out
 log4all
 log4any
@@ -6253,6 +6261,7 @@ loopback-component-jsonapi
 loopback-component-migrate
 loopback-component-oauth2
 loopback-component-passport
+loopback-component-passport-c
 loopback-component-passport-fork
 loopback-component-push
 loopback-component-satellizer
@@ -6876,6 +6885,7 @@ luja
 lujs
 luk
 luka-era-date
+luke
 lukeed-fromnow
 lukemodule
 lulala-demo

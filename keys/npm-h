@@ -374,6 +374,7 @@ hamysql
 han
 han-css
 hana-odbc
+hanayo
 hance.js
 hand
 hand-ect
@@ -1412,6 +1413,7 @@ has-binary-data
 has-binarydata
 has-bom
 has-bom-string
+has-callback
 has-canvas
 has-canvas-jpeg
 has-child-selector
@@ -1478,6 +1480,7 @@ hash-brown-router
 hash-brunch
 hash-builder
 hash-cache
+hash-cake
 hash-change
 hash-code
 hash-data
@@ -1862,6 +1865,7 @@ hbp
 hbs
 hbs-analyticsjs-snippet
 hbs-browser
+hbs-cjs-compiler
 hbs-dir
 hbs-express-templ-shiv
 hbs-extract
@@ -3080,6 +3084,7 @@ hexo-tag-video
 hexo-tag-vimhighlight
 hexo-tag-vine
 hexo-tag-xvideos
+hexo-theme-custom
 hexo-theme-greyshade
 hexo-theme-simpleblock
 hexo-theme-spacious
@@ -4475,6 +4480,7 @@ hotload
 hotload-lite
 hotmess
 hotmetal
+hotmop
 hotnode
 hotoo
 hotpath
@@ -7530,7 +7536,10 @@ hw2core-endpoint-parser
 hw2core-installer
 hwa
 hwa-cli
+hwa-prototype
 hwa-server
+hwa-store-id
+hwa-storeid
 hwaas
 hwache
 hwfbyvoidmodule

@@ -1038,6 +1038,7 @@ jdmailer
 jdoc
 jdoe-internetarchive-api
 jdog
+jdrop
 jdrupal
 jds
 jds-node-ssl-tests
@@ -3808,6 +3809,7 @@ jscover-2.0
 jscoverage
 jscoverage-report-grunt
 jscoverage-reporter
+jscow
 jscpd
 jscrambler
 jscrambler-loader
@@ -4267,6 +4269,7 @@ jslog
 jslogger
 jslogging
 jsm
+jsm-client
 jsm-compiler
 jsmail
 jsmake
@@ -5004,6 +5007,7 @@ json5-utils
 json5stream
 json5x
 json6
+json6-config
 json8
 json8-core
 json8-merge-patch
@@ -5347,6 +5351,7 @@ jsonresume-theme-sasha
 jsonresume-theme-sasha_fixed
 jsonresume-theme-sceptile
 jsonresume-theme-semantic-ui
+jsonresume-theme-sergio
 jsonresume-theme-short
 jsonresume-theme-shorter
 jsonresume-theme-shorter-bill
@@ -6674,6 +6679,7 @@ jwk-to-pem
 jwks-utils
 jwlongmodule
 jwoods_math_example
+jworg-language-counter
 jwork
 jWorkflow
 jwplatform-api

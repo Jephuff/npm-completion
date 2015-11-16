@@ -946,6 +946,7 @@ data-schema
 data-section
 data-separator
 data-serializer
+data-server
 data-service
 data-set
 data-shaper
@@ -1581,6 +1582,7 @@ dazzling-chance
 dazzling-fiction
 dazzling-path
 db
+db_noch
 db-base
 db-bridge
 db-builder
@@ -2103,6 +2105,7 @@ debugit
 debugjs
 debuglog
 debugnyan
+debugsmart
 debuguy
 debugx
 deburr-filename
@@ -2725,6 +2728,7 @@ deku-chart
 deku-datepicker
 deku-event
 deku-form
+deku-forms
 deku-grid
 deku-math
 deku-modal
@@ -3955,6 +3959,7 @@ dhtmlplus
 dhtmlx-desktop-chat
 dhtmlx-node-chat
 dhttp
+dhuzz_lad
 dhx
 di
 di-cast
@@ -4851,6 +4856,7 @@ disperse
 displacement-map
 display
 display_
+display-debug
 display-focus
 display-name
 display-notification
@@ -6819,6 +6825,8 @@ doppiojvm
 dopple
 doppleganger
 doppler
+doppler-slider-js
+dopplerslider
 dopromise
 doq
 doqmentdb
@@ -6832,6 +6840,7 @@ dork
 dork-cli
 dorkq
 dorm
+dorm-node
 dormi330_data_checker
 dormi330_logger
 dormouse
@@ -6935,6 +6944,7 @@ dotbin
 dotbutts
 dotc
 dotcall
+dotci
 dotclock
 dotconfig
 dotdash
@@ -7786,6 +7796,7 @@ drush-node
 drush-reloadp
 druuid
 dry
+dry-animate
 dry-api
 dry-js
 dry-lang
@@ -8050,6 +8061,7 @@ ducktype
 ducktyped
 ducky
 duct
+duct-tape
 ducted
 ducts
 dude

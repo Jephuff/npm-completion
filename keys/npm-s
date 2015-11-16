@@ -460,6 +460,7 @@ sailor-translate-user
 sailor-validator
 sailorjs
 sails
+sails_users_mng
 sails-aaf-rapid-connect
 sails-acl
 sails-adapter-boilerplate
@@ -838,6 +839,7 @@ sails-tumblr
 sails-twitter
 sails-userhooks-ircbot
 sails-userhooks-ws
+sails-users-mng
 sails-util
 sails-util-mcvsloader
 sails-util-mvcsloader
@@ -1225,6 +1227,7 @@ sanitize.css
 sanitize.less
 sanitize.stylus
 sanitizer
+sanitizr
 sanity
 sanitycheck
 sanjayphadtare-github-example
@@ -1403,6 +1406,7 @@ sass-import-compiler
 sass-import-once
 sass-import-resolve
 sass-imports
+sass-include-paths
 sass-includes
 sass-index
 sass-inline-image
@@ -2220,6 +2224,7 @@ science-ent
 science-halt
 scientia-breadcrumbs
 scientific-notation
+scientific-statistics
 scijs-inverse-permutation
 scijs-window-functions
 scikit
@@ -3064,6 +3069,7 @@ search-stream
 search-template-form
 search-text-tokenizer
 search-ui
+search-upc
 search-with-google-geocoder
 search123
 search2vars
@@ -3254,6 +3260,7 @@ seed
 seed-bot
 seed-extend
 seed-filestore
+seed-flatten
 seed-forge
 seed-js
 seed-lang
@@ -4929,6 +4936,7 @@ sexy-table
 sexyback
 sexylog
 sexytime
+sey
 seye.js
 seymour
 seyren-cli
@@ -5021,6 +5029,7 @@ sgen
 sgeo
 sget
 sgf
+sgf-parser
 sgfjs
 sgFramework
 sgk-jarvis
@@ -6984,6 +6993,7 @@ simple-markdown
 simple-math
 simple-matrix
 simple-maze-generator
+simple-memcached-monitor
 simple-memo
 simple-memoize
 simple-memoizer
@@ -7853,6 +7863,7 @@ sinopia
 sinopia-adduser
 sinopia-basic-auth
 sinopia-cobalt-cli
+sinopia-crowd
 sinopia-github
 sinopia-gitlab
 sinopia-htaccess-gpg-email
@@ -7970,6 +7981,7 @@ sircus-tools-width-responsive
 sircus-variables
 sire
 siren
+siren-client
 siren-enrouten
 siren-js
 siren-lusca
@@ -9276,6 +9288,7 @@ slush-vertigo-stack
 slush-wardour-generator
 slush-warpcore-plugin
 slush-wean
+slush-web-app
 slush-webapp
 slush-webix
 slush-webme
@@ -10675,6 +10688,7 @@ solari
 solarlunar
 solarmosaic-gulp-tasks
 solarmosaic-styleguide
+solarnetwork-d3
 solc
 solclientjs
 soldair-jsla-leveltalk
@@ -10987,6 +11001,7 @@ sorted-array
 sorted-cache
 sorted-cmp-array
 sorted-cmp-set
+sorted-collection
 sorted-diff-stream
 sorted-file-tree
 sorted-intersect
@@ -11190,6 +11205,7 @@ sourcejs-linting
 sourcejs-md-react
 sourcejs-react
 sourcejs-react-docgen
+sourcejs-react-styleguidist
 sourcejs-shadow-dom
 sourcejs-slm
 sourcejs-smiles
@@ -12571,6 +12587,7 @@ sql-client
 sql-concat
 sql-condition-builder
 sql-create-table-to-json
+sql-data-profiler
 sql-ddl-sync
 sql-engine
 sql-es
@@ -13494,6 +13511,7 @@ star-layout
 star-node
 star-polygon
 star-rating
+star-rating-tag
 star-wars
 star-wars-api
 star-wars-dice
@@ -15219,6 +15237,7 @@ stream-vis
 stream-viz
 stream-volume
 stream-waterfall
+stream-weaver
 stream-websocket
 stream-when
 stream-worker
@@ -16770,6 +16789,9 @@ sugardoll
 sugarjs
 sugarland-traffic
 sugarless
+sugarlisp
+sugarlisp-core
+sugarlisp-match
 sugarskull
 sugarti
 suger-pod
@@ -17172,6 +17194,7 @@ superenv
 supererror
 superexec
 superfast
+superfast-runtime
 superfeed
 superfeedr
 superfetch
@@ -17184,6 +17207,7 @@ superfluous
 superflux
 superfly-css-pli
 superfly-css-task-build
+superfly-css-task-test
 superfocus
 superfuild
 supergear
@@ -18321,6 +18345,7 @@ swissephemeris
 swissql
 switch
 switch_to_subl
+switch-board-driver
 switch-component
 switch-element
 switch-emitter

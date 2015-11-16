@@ -1065,6 +1065,7 @@ kbit
 kblog
 kbm-robot
 kbpgp
+kc
 kc-analyze
 kc-battle-status-plugin
 kc-http
@@ -2451,6 +2452,7 @@ knock-knock
 knock-knock-jokes
 knock-off
 knockat
+knockaway-api
 knockback
 knockback-inspector
 knockback-navigators
@@ -2973,6 +2975,7 @@ koa-mount-hostname
 koa-mount-hot
 koa-mounter
 koa-mountify
+koa-mserv
 koa-multer
 koa-multifetch
 koa-mvc
@@ -3068,6 +3071,7 @@ koa-react-isomorphic
 koa-react-render
 koa-react-view
 koa-react-view-ext
+koa-react-views
 koa-ready
 koa-reason
 koa-redirects

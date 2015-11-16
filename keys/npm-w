@@ -420,6 +420,7 @@ warrant
 warren
 warrior-code-api
 warriorjs
+warriorjs-engine
 warsjawa-2014-webapps
 wartremover
 wary
@@ -1646,6 +1647,8 @@ webpack
 webpack_env
 webpack-alias-helper
 webpack-amok-dev-server
+webpack-analyse
+webpack-analyse-tool
 webpack-angular-injector-plugin
 webpack-angular-translate
 webpack-anybar
@@ -1747,6 +1750,7 @@ webpack-partial
 webpack-path-rewriter
 webpack-php-mock
 webpack-pluck-plugin
+webpack-plugin-analyse
 webpack-plugin-notifier
 webpack-polyfills-plugin
 webpack-postcss-tools
@@ -1794,6 +1798,7 @@ webpack-udev-server
 webpack-umd-external
 webpack-unassert-loader
 webpack-utf8-bom
+webpack-vendor-chunk-plugin
 webpack-vendor-plugin
 webpack-visualizer-plugin
 webpack-watcher
@@ -2655,6 +2660,7 @@ whitelist-passthru
 whitelistip
 whiteout-mail
 whitepages
+whiterabbit
 whitescape
 whitesource
 whitesource-bower
@@ -2903,6 +2909,7 @@ wikimapia
 wikimd
 wikimedia-logo
 wikimedia-markdown-export
+wikimedia-stream
 wikiminute
 wikipedia
 wikipedia-anagrams
@@ -3324,6 +3331,7 @@ winningjs-lifecycle
 winningjs-svg2png
 winport
 winreg
+winreg-ffi
 winresize-event
 winresourcer
 winrmjs
@@ -4796,6 +4804,7 @@ wtwui
 wu
 wu-babel
 wubwub
+wude
 wudon
 wufoo
 wufoo-to-json

@@ -373,6 +373,7 @@ cafeina
 cafescript
 cafesuada
 cafetiere
+cafetunes
 caffe
 caffeina
 caffeinated-parameters
@@ -427,6 +428,7 @@ cake-db
 cake-dog
 cake-gulp
 cake-gulp4
+cake-hash
 cake-lib
 cake-pos-yaka
 cakehelper
@@ -2012,6 +2014,7 @@ ccgui
 ccinput
 ccjs
 ccjson
+cck
 cckazmath
 cckeyboard
 ccl
@@ -2493,6 +2496,7 @@ censorify4382
 censorify4567
 censorify72
 censorify88
+censorify88828
 censorify9
 censorify901
 censorify97
@@ -4332,6 +4336,8 @@ chtree
 chuan
 chubby
 chuck
+chuck-jokes
+chuck-norris-api
 chuck-rtc
 chuckme
 chucknorris
@@ -4795,6 +4801,7 @@ cl-curry
 cl-dom
 cl-intf
 cl-lemur
+cl-n
 cl-options
 cl-overlay
 cl-rpc
@@ -6516,6 +6523,7 @@ co-any
 co-array
 co-assert-timeout
 co-assets-compiler
+co-async
 co-asyncee
 co-authy
 co-aws
@@ -7736,6 +7744,7 @@ cold-sweat
 coldbrew
 colddoc
 colden
+coldframe-cli
 coldstorage
 cole
 coleccionista
@@ -8410,6 +8419,7 @@ command9
 commandable
 commandant
 commandcam
+commandcar
 commandeer
 commander
 commander-auto-complete
@@ -12335,6 +12345,7 @@ cordova-plugin-webp
 cordova-plugin-webrtc
 cordova-plugin-webserver
 cordova-plugin-websocket
+cordova-plugin-websocket-server
 cordova-plugin-websql
 cordova-plugin-websql-async
 cordova-plugin-websqldatabase
@@ -12355,6 +12366,7 @@ cordova-plugin-xhr-blob-polyfill
 cordova-plugin-xialeistudio-share
 cordova-plugin-xialeistudio-sns
 cordova-plugin-zbtprinter
+cordova-plugin-zeroconf
 cordova-plugin-zip
 cordova-pluging-disable-nsapptransportsecurity
 cordova-plugins
@@ -12382,6 +12394,7 @@ cordova-simulator
 cordova-sms-plugin
 cordova-splash
 cordova-splash-gm
+cordova-sqlite-ext
 cordova-sqlite-plugin
 cordova-sqlite-storage
 cordova-stale
@@ -12399,6 +12412,7 @@ cordova-travis
 cordova-twitter
 cordova-ubuntu
 cordova-uglify
+cordova-universal-clipboard
 cordova-universal-links-plugin
 cordova-uxcam
 cordova-version
@@ -13493,6 +13507,7 @@ crash
 crash-colliders
 crash-override
 crash-reporter-middleware
+crash-store-db
 crash-to-slack
 crasher
 crashit
@@ -14200,6 +14215,7 @@ crypto-classic-utils
 crypto-cookie
 crypto-cookie-factory
 crypto-dir
+crypto-fs
 crypto-fund
 crypto-hashing
 crypto-helper

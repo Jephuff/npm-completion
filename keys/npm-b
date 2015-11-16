@@ -195,6 +195,7 @@ babel-plugin-constant-folding
 babel-plugin-dead-code-elimination
 babel-plugin-dedent
 babel-plugin-defines
+babel-plugin-detective
 babel-plugin-dev
 babel-plugin-dev-expression
 babel-plugin-dunderscore-dev-inline
@@ -441,6 +442,8 @@ babel-preset-es2016-stage0
 babel-preset-es2016-stage1
 babel-preset-es2016-stage2
 babel-preset-es2016-stage3
+babel-preset-escompile
+babel-preset-escompile-node
 babel-preset-hyeonu
 babel-preset-lightsofapollo
 babel-preset-metalab
@@ -448,6 +451,7 @@ babel-preset-meteor
 babel-preset-michaelcontento
 babel-preset-nktpro
 babel-preset-node
+babel-preset-node-giovanni
 babel-preset-node5
 babel-preset-react
 babel-preset-react-hmre
@@ -2951,6 +2955,7 @@ beibei
 beijing
 bejesus-api
 bejesus-cli
+bekast-api
 bekite-imdb
 belajar-angular
 belbola
@@ -3685,6 +3690,7 @@ big-bro
 big-brother
 big-button-factory
 big-cheese
+big-click
 big-collection
 big-collection-view
 big-decimal
@@ -4035,6 +4041,7 @@ binascii
 binaural
 binauralbeat-gen
 binbone
+binc
 bincan
 bind
 bind-all
@@ -4836,6 +4843,7 @@ bjorling-nedb-storage
 bjorling-static-storage
 bjorling-storage
 bjs
+bk
 bk-helper
 bk-readability
 bk-utils
@@ -5659,6 +5667,7 @@ blvd-methods
 bly
 bly-react-mixin
 blync
+blync-core
 blynk-library
 blynk-library-js
 blypr-i
@@ -5962,6 +5971,7 @@ bolt-relay
 bolt-rpc
 bolt-sdk
 bolt-standard-flux
+bolt-survey
 bolt-template
 boltbus
 boltcm-newsletter-sender
@@ -6994,6 +7004,7 @@ bplus-index
 bpm
 bpm-bundle
 bpm-calc
+bpm-cli
 bpm-detective
 bpm-publish
 bpm-tick
@@ -7222,6 +7233,7 @@ breach-module
 breach-module-manager
 bread
 breadboard
+breadbox
 breadcrumb
 breadcrumbmanager
 breadcrumbs
@@ -7329,6 +7341,7 @@ brick-browser
 brick-browserify-plugin
 brick-cli
 brick-component
+brick-demo
 brick-dev
 brick-grunt
 brick-gulp-tasks
@@ -8679,6 +8692,7 @@ btpoe-elixir
 btr
 btr-vdom
 btree
+btree-helpers
 btreejs
 btrfs
 btrz-auth-api-key

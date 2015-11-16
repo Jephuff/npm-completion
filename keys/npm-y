@@ -338,6 +338,7 @@ yang
 yang-compiler
 yang-parser
 yang-storm
+yangblink-npm-test
 yangda
 yangforge
 yangjs
@@ -367,6 +368,7 @@ yaodongweitestnodejs
 yaolihui
 yaoops
 yaot
+yaowst
 yaoyuan
 yaozhongxiaodemo
 yap
@@ -1004,6 +1006,7 @@ yodoya-activetick-adapter
 yofile
 yofine
 yofine_demo2
+yofinity
 yofs
 yofz
 yog
@@ -1030,6 +1033,7 @@ yog2-kernel
 yog2-parser-optimizer-tpl
 yog2-postprocessor-optimizer-tpl
 yog2-preprocessor-inline
+yoga-sass
 yogendra_cartpack
 yogi
 yogi-alloy
@@ -1044,6 +1048,10 @@ yogurt-preprocessor-extlang
 yogurt-preprocessor-inline
 yoho
 yohoho
+yohoho.flexy
+yohoho.smylies
+yohoho.tabloyd
+yohoho.yofinity
 yohtml
 yoi
 yoi-instance

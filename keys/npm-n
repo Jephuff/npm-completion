@@ -622,6 +622,7 @@ native-dns-server
 native-geoip-middleware
 native-gpio
 native-hashset
+native-huron
 native-io
 native-js
 native-keyboard
@@ -638,6 +639,7 @@ native-promise
 native-promise-only
 native-promisify
 native-promisify-if-present
+native-sgrab-helper
 native-thumber
 native-types
 native-view-helpers
@@ -875,6 +877,8 @@ ncache
 ncall
 ncallbacks
 ncawthon-resume
+ncbi-api
+ncbi-entrez-api
 ncbi-eutil-server
 ncbi-eutils
 ncbi-eutils-libxmljs
@@ -932,6 +936,7 @@ nconf-etcd
 nconf-etcd2
 nconf-http
 nconf-jsonminify
+nconf-level
 nconf-loader
 nconf-loader-ex
 nconf-redis
@@ -3489,6 +3494,7 @@ nmae
 nmail
 nmake
 nman
+nmap
 nmc.js
 nmc2couch
 nmccready
@@ -6368,6 +6374,7 @@ node-opencv-zbar
 node-opendirectory-size
 node-openjtalk
 node-opensignal
+node-opensignal-api
 node-opensips-management
 node-openssl-p12
 node-openstack
@@ -6557,6 +6564,7 @@ node-playground
 node-playstore-api
 node-pledge
 node-plex-api
+node-plex-api-pinauth
 node-plovr
 node-pluggable
 node-pluploader
@@ -8732,8 +8740,10 @@ nodebb-plugin-mandrill-emailer
 nodebb-plugin-markdown
 nodebb-plugin-markdown-toc
 nodebb-plugin-meetup
+nodebb-plugin-mega-bbparser
 nodebb-plugin-mega-colors
 nodebb-plugin-mega-knights-usertitle
+nodebb-plugin-mega-teamspeak
 nodebb-plugin-mentions
 nodebb-plugin-mentions-cards
 nodebb-plugin-meteor-accounts
@@ -10784,6 +10794,7 @@ npc-redis
 npcms
 npcp
 npd
+npdep
 npdf
 npdx
 npdynamodb
@@ -11442,6 +11453,7 @@ npm-tutor
 npm-tutorial
 npm-tutorial-work
 npm-tweets
+npm-txm
 npm-typeahead
 npm-ui
 npm-uninstall-all-local

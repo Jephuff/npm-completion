@@ -1498,6 +1498,7 @@ generator-ayrofast
 generator-babel
 generator-babel-boilerplate
 generator-babel-bug
+generator-babel-es6
 generator-babel-express
 generator-babel-init
 generator-babel-lib
@@ -2088,6 +2089,7 @@ generator-do
 generator-doc-metrix-doc
 generator-doc-metrix-node
 generator-doc-metrix-spec
+generator-docbase
 generator-docker
 generator-docker-foundationpress
 generator-docker-foundationpress-child
@@ -3097,6 +3099,7 @@ generator-kss-starter
 generator-kubernetes
 generator-kurea
 generator-kwebapp
+generator-kyper-react
 generator-lambda
 generator-lancelot
 generator-landing-page
@@ -4464,6 +4467,7 @@ generator-stacked
 generator-stamp
 generator-standalone-umd
 generator-standart
+generator-star
 generator-stardust
 generator-starhackit
 generator-starling
@@ -4777,6 +4781,7 @@ generator-vrjs
 generator-vrwebgl
 generator-vsc-node-typescript
 generator-vsoft
+generator-vsts-extension
 generator-vtex
 generator-vtexproject
 generator-vue
@@ -5190,6 +5195,8 @@ genoset-123
 genoset-126
 genoset-293
 genoset-alcohol-flush-reaction
+genoset-alzheimer
+genoset-bitter
 genoset-chrons-disease
 genoset-chronsdisease
 genoset-male
@@ -5464,6 +5471,7 @@ geometer
 geometrica
 geometrie-dom-util
 geometry
+geometry_noch
 geometry.js
 geomicons-open
 geomjs
@@ -5950,6 +5958,7 @@ getcpids
 getdebug
 getdirs
 getdns
+getdoc
 getdogs
 getdrip-api
 getent
@@ -8666,6 +8675,8 @@ go-fetch-read-body
 go-fetch-useragent
 go-figure
 go-flow
+go-game-rules
+go-go-react
 go-google-maps
 go-ipfs
 go-jsbox-location
@@ -9502,6 +9513,7 @@ gr
 gr-event
 gr-events
 gr.denton.photosphere
+gr2m-frontend-test-setup
 gr2m-test1
 grab
 grab_bag
@@ -10463,6 +10475,7 @@ grunt-artifactory-publish
 grunt-artoo
 grunt-artycles
 grunt-as-html2ts
+grunt-as-promised
 grunt-as3
 grunt-asar
 grunt-asar-m1
@@ -11138,6 +11151,7 @@ grunt-cloudflare-cache
 grunt-cloudfront
 grunt-cloudfront-clear
 grunt-cloudfront-root
+grunt-cloudinary
 grunt-clowncar
 grunt-cmd
 grunt-cmd-build
@@ -16556,6 +16570,7 @@ grunt-writer
 grunt-writing
 grunt-ws-rewrite
 grunt-ws-rjs-builder
+grunt-wslint
 grunt-wsmod-packer
 grunt-wtbuild
 grunt-wti-parser
@@ -16799,6 +16814,7 @@ gt-gulp
 gt-passport-http
 gt511c3
 gta-service-desk
+gtape
 gtb
 gtbg
 gtc
@@ -17892,6 +17908,7 @@ gulp-durandal
 gulp-duration
 gulp-dust
 gulp-dust-compile-render
+gulp-dust-crawler
 gulp-dust-html
 gulp-dust-render
 gulp-dustin
@@ -20698,6 +20715,7 @@ gulpack-watchify
 gulpack-webserver
 gulpbuild
 gulpc
+gulpclass
 gulped
 gulper
 gulperizer

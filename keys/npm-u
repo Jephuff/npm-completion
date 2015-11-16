@@ -381,6 +381,7 @@ ui-contextmenu
 ui-core
 ui-datepicker
 ui-docs
+ui-dropzone
 ui-dv
 ui-elements
 ui-ember-slider
@@ -925,6 +926,7 @@ unexpected-fs
 unexpected-function-equality
 unexpected-htmllike
 unexpected-htmllike-jsx-adapter
+unexpected-htmllike-reactrendered-adapter
 unexpected-http
 unexpected-image
 unexpected-jsdom
@@ -1396,6 +1398,7 @@ unpack-bmfonts
 unpack-element
 unpack-html
 unpacker
+unpackjs
 unparam
 unparse
 unparse-args
