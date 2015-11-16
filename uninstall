@@ -29,4 +29,4 @@ if [ ! -z $source_file ]; then
 fi
 
 echo "remove this line to a cron job or startup script if added"
-echo "    cd $npm_path && ./update.sh"
+echo "    cd $npm_path && ./update"

@@ -40,5 +40,5 @@ if [ ! -z $source_file ]; then
 fi
 
 echo -e "\nadd this line to a cron job or startup script"
-echo "    cd $npm_path && ./update.sh"
+echo "    cd $npm_path && ./update"
 echo -e "\nrestart terminal to start using\n"
