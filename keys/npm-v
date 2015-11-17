@@ -144,6 +144,7 @@ valid-npm-package-name
 valid-object
 valid-objectid
 valid-params
+valid-point
 valid-props
 valid-querystring
 valid-records
@@ -602,6 +603,7 @@ varnish
 varnish-agent
 varnishstat
 varnishstats
+varo
 varr
 varrier
 vars

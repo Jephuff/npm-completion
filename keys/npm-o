@@ -332,6 +332,7 @@ obj-to-json
 obj-to-table
 obj-tools
 obj-toposort
+obj-transform
 obj-type
 obj-uber
 obj-util
@@ -450,6 +451,7 @@ object-history
 object-id
 object-id-mask
 object-id-with-time
+object-in-one-level
 object-index
 object-indexer
 object-inherit
@@ -1010,6 +1012,7 @@ octop
 octopart
 octophant
 octopie
+octoplus
 octopo
 octoppi-cli
 octoppi-ppi
@@ -2511,6 +2514,7 @@ opnr
 opoa
 opoa-example
 opoint-report
+opool
 opos
 opower-jobs
 oppi
@@ -3558,6 +3562,7 @@ otwo
 ou
 ouch
 oui
+oui-dom-utils
 ouibounce
 ouija
 oulipo

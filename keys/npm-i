@@ -93,6 +93,7 @@ i18next-browser-languagedetector
 i18next-client
 i18next-conv
 i18next-express-middleware
+i18next-jquery
 i18next-ko
 i18next-loader
 i18next-localstorage-cache
@@ -385,6 +386,7 @@ iced-lock
 iced-logger
 iced-reactify
 iced-runtime
+iced-runtime-3
 iced-spawn
 iced-stream
 iced-test
@@ -803,6 +805,7 @@ iframe-box
 iframe-buster-killer
 iframe-file-upload-middleware
 iframe-loader
+iframe-messenger
 iframe-overlay
 iframe-phone
 iframe-pingpong
@@ -1954,6 +1957,7 @@ inchi
 inchi-server
 inchjs
 incident-reporter
+incident-reporting-client
 incipience
 incisor
 include
@@ -2013,6 +2017,7 @@ incremental-ar
 incremental-convex-hull
 incremental-delaunay
 incremental-dom
+incremental-dom-to-string
 incremental-eval
 incremental-installer
 incremental-installer-maker
@@ -2326,6 +2331,7 @@ inform-plugin-twilio-sms
 inform-shared
 informal
 informant
+informant-client
 information-radiator
 informer
 infoserver
@@ -2841,12 +2847,14 @@ instagram-node
 instagram-node-lib
 instagram-popular
 instagram-realtime
+instagram-save
 instagram-scrape-account-stats
 instagram-screen-scrape
 instagramjs
 instajam
 instalike
 install
+install_ocaml
 install-deps
 install-docker-cli
 install-g
@@ -3079,6 +3087,7 @@ interactive
 interactive-command
 interactive-earth
 interactive-earth-graticule
+interactive-earth-interaction
 interactive-earth-points
 interactive-earth-polygons
 interactive-earth-tiles
@@ -4093,6 +4102,7 @@ iraasta-utils
 iracing
 irail-stations
 iran
+iranian-ssn
 irc
 irc_bottools
 irc-api
@@ -4237,6 +4247,7 @@ ironmq-queue-stream
 ironmq-stream
 ironsmith
 ironsource
+ironsrc
 ironwing
 ironwood
 ironworker-helper
@@ -4961,6 +4972,7 @@ ishmael
 ishout.js
 ishow
 ishp
+ishpingo
 ishtar
 isikukood
 isilist
@@ -5182,6 +5194,7 @@ isotropy-browser-request
 isotropy-dev-mode
 isotropy-koa-context-in-browser
 isotropy-koa-mode
+isotropy-mount
 isotropy-request
 isotropy-request-response-in-browser
 isotropy-router

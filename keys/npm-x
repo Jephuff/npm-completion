@@ -377,6 +377,7 @@ xemplar
 xen-api
 xena
 xena-errors
+xena-initializer
 xena-logger
 xena-middlewares
 xena-router

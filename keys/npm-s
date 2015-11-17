@@ -115,6 +115,7 @@ s3-policy
 s3-policy-generator
 s3-post
 s3-post-policy
+s3-proxy
 s3-public-url
 s3-pusher
 s3-querystring-auth
@@ -1533,6 +1534,7 @@ sassyicons
 sassyjson
 sassysass
 sasuke
+sasync
 sat
 sat-words
 sata-dictionary
@@ -1728,6 +1730,7 @@ sayhello2
 sayhellototheworld
 sayhelloworld
 sayhi
+saync
 sayndo
 says
 saysnoop
@@ -2272,6 +2275,7 @@ scla404_mu
 scla404_sg
 sclass
 sclass.js
+sclipting-escape
 scloud-cli
 scm
 scmin
@@ -2596,6 +2600,7 @@ scribe-plugin-oembed-prompt
 scribe-plugin-sanitize-google-doc
 scribe-plugin-sanitizer
 scribe-plugin-smart-lists
+scribe-plugin-span-style
 scribe-plugin-table-command
 scribe-plugin-toolbar
 scribe-plugin-vimeo-prompt-command
@@ -2694,6 +2699,7 @@ scroll-fever
 scroll-fixed-header
 scroll-frame
 scroll-helper
+scroll-in
 scroll-into-view
 scroll-js
 scroll-left
@@ -2824,6 +2830,7 @@ scsync
 scuba-dive
 scuby-snax
 scuelo-api-client
+scuff
 scui-approve-button
 sculed
 sculejs
@@ -3276,6 +3283,7 @@ seed-riak
 seed-router
 seed-slackbot
 seed-talker
+seed-uv
 seedable-random
 seeddata_559703c3b0daf25c57915b60
 seededshuffle
@@ -3911,6 +3919,7 @@ seneca-project
 seneca-quartz-scheduler
 seneca-queue
 seneca-rabbitmq-transport
+seneca-rabbitmq-transport-improved
 seneca-rabbitmq-transport-v2
 seneca-redis
 seneca-redis-cache
@@ -4389,6 +4398,7 @@ serling-layout-builder
 sermat
 sermone
 sero-cli
+serp
 serpa
 serpens
 serpent
@@ -5325,6 +5335,7 @@ shark.io
 sharkdown
 sharkfly
 sharkhorse
+sharkins-react-bootstrap-datetimepicker
 sharknado
 sharp
 sharp-aquos-remote-control
@@ -5828,6 +5839,7 @@ shoestring
 shoetest
 shogi.js
 shogi64
+shoji
 sholiardi
 shon
 shonkwrap
@@ -9527,9 +9539,11 @@ smartdc
 smartdc-auth
 smartdc-cost
 smartdc-listcomputenodes
+smartdebug
 smartdns
 smartdoc
 smarter-buffer
+smartermeasure-reporting-client
 smartface
 smartface-c9
 smartface-cli
@@ -9577,6 +9591,7 @@ smartsms
 smartspace
 smartspaces
 smartstonedemo
+smarttest
 smartthings
 smarttv-debug
 smarttv-navigation
@@ -10836,6 +10851,7 @@ somepkg
 somerandomtestpackage
 something
 something-something
+somethingnoonecaresaboutatalljustformyowntesting
 somethings
 someware
 somewhere
@@ -10865,6 +10881,7 @@ sonde
 sonde.js
 sondre
 sonea
+sonea-utils
 sones
 song
 song-flux
@@ -11801,6 +11818,7 @@ spellit
 spelljs
 spells
 spells-demo-app
+spelly
 spelunk
 spend
 spender
@@ -12614,6 +12632,7 @@ sql-parser
 sql-promise
 sql-promise-tester
 sql-protobuf
+sql-proxy-client
 sql-proxy-cluster
 sql-query
 sql-query-builder
@@ -13128,6 +13147,7 @@ ssh2-pool
 ssh2-streams
 ssh2-they
 ssh2-utils
+ssh2ec2
 ssh2pp
 ssh2shell
 ssh2sync
@@ -13224,6 +13244,7 @@ ssrtojson
 sss
 sss-node
 sss1
+sssa-js
 sssh
 sssi-livedb
 sssi-share
@@ -13237,6 +13258,7 @@ ssupp
 ssvs-utils
 sswebserviceclient
 sswf
+ssync
 st
 st-multi-sort
 st-stream
@@ -13544,6 +13566,7 @@ stargate9
 stargates
 stargaze
 stargazer
+stargazers
 starget
 stark
 starkana-manga-crawler
@@ -13746,6 +13769,7 @@ statebus
 statebus-client
 statebus-server
 statechart
+statechartjs
 statecraft
 stated
 stateflow
@@ -14202,6 +14226,7 @@ steal-can-autorender
 steal-conditional
 steal-cordova
 steal-css
+steal-es6-module-loader
 steal-ipa
 steal-jasmine
 steal-less
@@ -14213,6 +14238,7 @@ steal-sass
 steal-server-side-render
 steal-socket.io
 steal-sweet
+steal-systemjs
 steal-template
 steal-tools
 stealjs
@@ -14587,6 +14613,7 @@ stock-fetch
 stock-fetcher
 stock-quotes-example
 stock-watch
+stockassist
 stockcn
 stockfish
 stockholm
@@ -16153,6 +16180,7 @@ stupid-indexer
 stupid-log
 stupid-player
 stupid-replace
+stupid-server
 stupid-soap
 stupidbox
 stupidly-simple-events
@@ -17208,6 +17236,7 @@ superflux
 superfly-css-pli
 superfly-css-task-build
 superfly-css-task-test
+superfly-css-variables-colors
 superfocus
 superfuild
 supergear
@@ -17468,6 +17497,7 @@ supplydemand
 support
 support-admin
 support-browser
+support-for
 support-test
 supported-audio
 supporter
@@ -18828,6 +18858,7 @@ sysstats
 systat
 systatic
 system
+system-bell-webpack-plugin
 system-bower
 system-coffee
 system-component

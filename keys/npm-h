@@ -697,6 +697,7 @@ hapi-auth-email
 hapi-auth-extra
 hapi-auth-fake
 hapi-auth-gitkit
+hapi-auth-google
 hapi-auth-hawk
 hapi-auth-header
 hapi-auth-hmac-cheese
@@ -1017,6 +1018,7 @@ hapi-rest-routes
 hapi-restful-api-example
 hapi-restify
 hapi-rethinkdb
+hapi-rethinkdb-init
 hapi-rethinkdb-thinky
 hapi-reveal
 hapi-route-acl
@@ -2251,6 +2253,7 @@ hello_test_kmbaby
 hello_test_lc
 hello_test_li
 hello_test_lichaott
+hello_test_lirunzi
 hello_test_lqy
 hello_test_ltzmaxwell
 hello_test_neil
@@ -2396,6 +2399,7 @@ hellolibby
 hellolnnn
 hellomd
 hellome
+hellomodel
 hellomodule
 hellonewworld
 hellonizador
@@ -3917,6 +3921,7 @@ holiday-de
 holiday-jp
 holiday-pt
 holiday-udp
+holiday.cn
 holidays
 holidays-cz
 holidays-norway
@@ -4109,8 +4114,11 @@ hoodie-admin-dashboard
 hoodie-admin-dashboard-uikit
 hoodie-cli
 hoodie-client
+hoodie-client-account
 hoodie-client-connection-status
 hoodie-client-log
+hoodie-client-store
+hoodie-client-task
 hoodie-client-task-queue
 hoodie-integration-test
 hoodie-plugin-angularjs
@@ -4171,7 +4179,12 @@ hoodie-pocket
 hoodie-pocket-uikit
 hoodie-react-fluxxor
 hoodie-server
+hoodie-server-account
+hoodie-server-store
+hoodie-server-task
 hoodie-service
+hoodie-standalone-account
+hoodie-standalone-store
 hoodie-start
 hoodie-store-and-account-tutorial
 hoodie-utils-plugins
@@ -4668,6 +4681,7 @@ hr.vview
 hr.worker
 hr2000
 hrandom
+hrd-bin
 hrduration
 href
 href-content
@@ -6054,6 +6068,7 @@ hubot-computerdogs
 hubot-conf
 hubot-config
 hubot-confluence
+hubot-connectwise_slack
 hubot-conoha
 hubot-conspire
 hubot-contributejson
@@ -7228,6 +7243,8 @@ hubot.io
 hubotbucket
 hubotfy
 hubsearch
+hubspell-simplifier-markdown
+hubspell-speller
 hubspot
 hubspot-style
 hubstack

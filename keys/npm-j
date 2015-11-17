@@ -598,6 +598,7 @@ jasmine-json
 jasmine-json-reporter
 jasmine-json-test-reporter
 jasmine-jsonpath
+jasmine-kahlan
 jasmine-matcher-wrapper
 jasmine-matchers
 jasmine-md-reporter
@@ -771,6 +772,7 @@ javascript-gulp-task-lint
 javascript-i18n-angular-library
 javascript-i18n-library
 javascript-idents
+javascript-ioc
 javascript-is-awesome
 javascript-is-awesome-grunt
 javascript-jass-bot
@@ -822,6 +824,7 @@ javiary
 javier
 javlin-pure
 jaw
+jaw-loader
 jawa-juice
 jawbone-up
 jawk
@@ -926,6 +929,7 @@ jbot
 jbpivot
 jbrules
 jbt
+jbtest
 jbuffers
 jbuild
 jbuilder
@@ -1165,6 +1169,8 @@ jellymarker
 jellyscript
 jem
 jem-loopback-component-oauth2
+jem-loopback-component-passport
+jem-passport-bitbucket-oauth2
 jem-passport-oauth2-client-password
 jemima
 jemini
@@ -3810,6 +3816,9 @@ jscoverage
 jscoverage-report-grunt
 jscoverage-reporter
 jscow
+jscow-button
+jscow-panel
+jscow-theme
 jscpd
 jscrambler
 jscrambler-loader
@@ -3983,6 +3992,7 @@ jsdom-nogyp
 jsdom-oldschool
 jsdom-papandreou
 jsdom-repl
+jsdom-se
 jsdom-sync
 jsdom-test-browser
 jsdom-xhr-patch
@@ -4031,6 +4041,7 @@ jsepgen
 jseq
 jser
 jser-stat
+jser.cc
 jser.info-editor
 jserror
 jserve
@@ -4275,6 +4286,7 @@ jsmail
 jsmake
 jsmanipulate
 jsmap
+jsmaps
 jsmart
 jsmartier
 jsmarty
@@ -5567,6 +5579,7 @@ jspm-sass-mouth
 jspm-server
 jspm-systemjs-babel-seed
 jspm-test
+jspm-testem
 jspm-utils
 jspngopt
 jspot
@@ -6227,6 +6240,7 @@ jt-yui
 jt400
 jt400-memcached
 jtablescroll
+jtal
 jtb-ui-router-extras
 jtcluster
 jtd-xml-to-json
@@ -6547,6 +6561,7 @@ just-zip
 just.datagenerator
 just.randomcolor
 just.randomstring
+justatesthapiplugin
 justaudio
 justbehapi
 justbuild
@@ -6725,6 +6740,7 @@ jx
 jxa
 jxapp
 jxappsrvr
+jxc
 jxcecapi
 jxcore-cordova
 jxcore-fibers

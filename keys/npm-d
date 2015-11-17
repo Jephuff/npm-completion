@@ -973,6 +973,7 @@ data-tier
 data-tip
 data-tracker
 data-transfer-is-file
+data-tree
 data-updater
 data-uri
 data-uri-fy
@@ -1063,6 +1064,7 @@ datadog-metrics
 datadog-mongodb
 datadriver
 datadriver.io
+datafactory
 datafill
 datafilter
 datafixture.js
@@ -1664,6 +1666,7 @@ dbc-node-newrelic-wrapper
 dbc-node-openorder-client
 dbc-node-opensearch-client
 dbc-node-popsuggest
+dbc-node-profile-client
 dbc-node-ranked-recommendations-client
 dbc-node-recommendations
 dbc-node-serviceprovider
@@ -2052,6 +2055,7 @@ debug-events
 debug-ext
 debug-flags
 debug-folly
+debug-http
 debug-js
 debug-label
 debug-levels
@@ -2093,6 +2097,7 @@ debug.me
 debug2
 debuga
 debugcallback
+debugfs
 debugg
 debuggable
 debugger
@@ -2797,6 +2802,7 @@ delegoat
 delete
 delete_me_node_couch_express_sockets
 delete_node_19
+delete-ds-store-cli
 delete-ee-properties
 delete-face
 delete-property
@@ -3984,6 +3990,7 @@ di.ts
 di2
 di4js
 dia
+dia-da-semana
 diable
 diablo-file-formats
 diacritic
@@ -4484,6 +4491,7 @@ dingle-swift-alamofire
 dingle-validator
 dingleberry
 dingo
+dingtalk-node
 dingyanqiang
 dinject
 dinjector
@@ -6609,6 +6617,7 @@ domine-html5
 domine-render
 domineer
 domingo
+dominikstrasser
 dominion
 dominion-game
 dominioneer
@@ -6904,6 +6913,7 @@ dot-packer
 dot-parts
 dot-product-ndarray
 dot-prop
+dot-prop-immutable
 dot-prop-value
 dot-qs
 dot-reporter

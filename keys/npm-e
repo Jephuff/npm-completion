@@ -203,6 +203,7 @@ easy-bitly
 easy-build
 easy-cache
 easy-captcha
+easy-charm
 easy-child
 easy-cli
 easy-cluster
@@ -802,6 +803,7 @@ edc-start-capture-image
 edc-start-file-checksum
 edc-start-file-checksums
 edc-view-lambda
+edc-write
 edcs-datagrid
 edcs-has
 edcs-history
@@ -3577,6 +3579,7 @@ ember-fade-element
 ember-fail
 ember-faker
 ember-falcor
+ember-fast-link-to
 ember-fastboot
 ember-fastboot-server
 ember-feature-flags
@@ -4164,6 +4167,7 @@ emberconf-cli
 emberfire
 emberhbsfy
 emberjs-build
+emberlify
 embersmith
 emberui
 emberx-autosuggest
@@ -4213,6 +4217,7 @@ emery-module
 emese
 emesh
 emf
+emgen-auth-proxy
 emi
 emic2
 emiflake
@@ -5537,6 +5542,7 @@ epochtalk-validator
 epoll
 eponymous
 eport
+eportal
 eportaljs
 epoxy
 epp
@@ -5614,6 +5620,7 @@ equatorial
 eque
 equella_rest_apis
 equella-cli
+equery
 equestrian
 equeue
 equilibrium
@@ -5903,6 +5910,7 @@ es-verify
 es-writable
 es.keensoft.fullscreenimage
 es.keensoft.fullscreenimage2
+es.mschez.locktask
 es1-censorify
 es2015-mixin
 es2099
@@ -6369,9 +6377,11 @@ eslint-config-bemuse
 eslint-config-bengler
 eslint-config-bestpratices
 eslint-config-billogram
+eslint-config-bmc
 eslint-config-bockit
 eslint-config-brigade
 eslint-config-brightspace
+eslint-config-bullhorn
 eslint-config-canonical
 eslint-config-canonical-jsdoc
 eslint-config-canonical-react
@@ -6447,6 +6457,8 @@ eslint-config-infektweb
 eslint-config-interactivethings
 eslint-config-jameslnewell
 eslint-config-jason
+eslint-config-jcooke
+eslint-config-jonnybuchanan
 eslint-config-jscrambler
 eslint-config-jss
 eslint-config-jupl
@@ -6504,6 +6516,7 @@ eslint-config-nightmare-config
 eslint-config-nightmare-mode
 eslint-config-ninja
 eslint-config-nkt
+eslint-config-noamokman
 eslint-config-node-style-guide
 eslint-config-nodesecurity
 eslint-config-nodules
@@ -6680,6 +6693,7 @@ eslint-plugin-backbone
 eslint-plugin-batman-requires
 eslint-plugin-bdd
 eslint-plugin-better
+eslint-plugin-bo-tools
 eslint-plugin-cah
 eslint-plugin-canvas
 eslint-plugin-chai
@@ -7096,6 +7110,7 @@ esxsys
 esync
 et
 et_phone_home
+et-al
 et-cli
 et-component
 et-github-autorelease
@@ -8265,6 +8280,7 @@ exm
 exml
 exo
 exo_browser
+exo-dataset
 exoajojo
 exodium
 exodom
@@ -9059,6 +9075,7 @@ express-jwt-token
 express-kafka-producer
 express-keenio
 express-kerberos
+express-kvstore
 express-lane
 express-lang
 express-language

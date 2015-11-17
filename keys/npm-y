@@ -469,6 +469,7 @@ yast
 yast-lib
 yastopwatch
 yasts
+yasync
 yasyslog
 yat
 yatask
@@ -822,6 +823,7 @@ yield-di
 yield-iterator
 yield-on-promise
 yield-ratelimit-reset
+yield-router
 yield-siftscience
 yield-stub
 yield-yield
@@ -1080,6 +1082,7 @@ yonce
 yonder
 yong
 yongche-echo
+yongnan_forecast
 yongoose
 yonnes_mypackage
 yoobic-angular-core
@@ -1166,6 +1169,7 @@ your-project
 your-script
 yourchoice
 yourest
+yourlocalcousin
 yourls
 yourls-client-js
 yourmom
@@ -1296,6 +1300,7 @@ ys-serve-index
 ys-stylus
 ys-unique-id
 ys-vcr
+ysanc
 ysb-grunt-sauce-tunnel
 ysb-keymanager
 ysb-sauce-tunnel

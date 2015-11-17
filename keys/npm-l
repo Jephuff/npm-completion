@@ -1579,6 +1579,7 @@ leancloud-logger
 leancloud-realtime
 leancloud-session-storage
 leancloud-utils
+leancloud-xmlhttprequest
 leancloudpush
 leanconf
 leandroestudo
@@ -1648,6 +1649,7 @@ learning-yeoman-ch8
 learninggruntplugin
 learningjs
 learnjs
+learnmodule
 learnmore
 learnnnn
 learnnode_e1
@@ -2743,6 +2745,7 @@ lfmt
 lfo
 lfr
 lfr-amd-loader
+lfr-flat-tooltip-themelet
 lfr-git-hooks
 lfr-link-flip-themelet
 lfr-modern-alert-themelet
@@ -3549,6 +3552,7 @@ linear-interpolator
 linear-partition
 linear-partitioning
 linear-preset-any-to-any
+linear-preset-by-coefficients
 linear-preset-factory
 linear-presets
 linear-presets-amount-of-substance
@@ -3887,6 +3891,7 @@ linux-wifi
 linux-wifi-name
 linux-wifi-password
 linuxcam
+linuxd
 linuxjs
 linuxjs-git
 linuxmouse
@@ -4673,6 +4678,7 @@ load-metadata
 load-metalsmith-plugins
 load-module-pkg
 load-modules
+load-more
 load-ng-components
 load-once
 load-options
@@ -5117,6 +5123,7 @@ lodash
 lodash-addons
 lodash-amd
 lodash-amd-an
+lodash-api-description
 lodash-array-mixins
 lodash-async
 lodash-bindright
@@ -6058,6 +6065,7 @@ loke-ipc
 loke-jsdoc-theme
 loke-logger
 loke-mysql-orm
+loke-queue
 loke-webapp-builder
 loki
 loki-2d-physics

@@ -615,6 +615,7 @@ fanmodule
 fann
 fann-lite
 fannypack
+fannypack-angular-templatecache
 fannypack-iconfont
 fannypack-images
 fannypack-less
@@ -848,6 +849,7 @@ fastbitset
 fastbuildproject
 fastcgi
 fastcgi-application
+fastcgi-client
 fastcgi-parser
 fastcgi-server
 fastcgi-stream
@@ -1067,6 +1069,7 @@ fb-test-user
 fb-test-users
 fb-watchman
 fb-xmpp-connector
+fb-zombie
 fb2rss
 fba
 fbagent
@@ -1293,6 +1296,7 @@ feather-xml-export
 featherdb
 feathers
 feathers-accounts
+feathers-authentication
 feathers-batch
 feathers-blueprints
 feathers-client
@@ -1387,6 +1391,7 @@ fed2
 fed3
 fedach
 fedbot
+fede
 fedemo
 federated-search
 federation
@@ -1420,6 +1425,7 @@ feed-discover
 feed-js
 feed-poll
 feed-read
+feed-reader
 feed-tables
 feed-transformer
 feed-utils
@@ -1839,6 +1845,8 @@ fg-getmeta
 fg-loadcss
 fg-loadjs
 fg-lodash
+fg-overthrow
+fg-snapper
 fg-socialcount
 fgdb
 fgen
@@ -2209,6 +2217,7 @@ file-error
 file-event
 file-exist
 file-exists
+file-exists-by-list
 file-expires
 file-explorer
 file-explorer-api
@@ -2882,6 +2891,7 @@ fingi
 fingi-cmd
 fingular
 finish
+finish-release
 finished
 finisher
 finishline
@@ -3794,6 +3804,7 @@ fis3-postpackager-hxq-load-file
 fis3-postpackager-iconfont
 fis3-postpackager-loader
 fis3-postpackager-open
+fis3-postpackager-ousiri-loader
 fis3-postpackager-paf.h5.replacepackagerfiles
 fis3-postpackager-rosetta
 fis3-postpackager-yymonitor
@@ -4434,6 +4445,7 @@ flesh
 fless
 fletch
 fletcher
+fleur
 flew
 flex
 flex-authorizor
@@ -7440,6 +7452,7 @@ frp
 frp-adventure
 frp-keyboard
 frp-middelware
+frp-middleware
 frp-promise
 frp-tick
 frp.js
@@ -7961,6 +7974,7 @@ fuel
 fuel-auth
 fuel-rest
 fuel-soap
+fuel-ui
 fueleconomy
 fuelsdk-node
 fuelux
