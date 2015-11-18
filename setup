@@ -37,8 +37,10 @@ if [ ! -z $source_file ]; then
 	if [ $? != 0 ]; then
 		printf "\n$npm_source" >> $source_file
 	fi
-fi
 
-echo -e "\nadd this line to a cron job or startup script"
-echo "    PATH=\$PATH:$(dirname $(which node)):$(dirname $(which npm)) && cd $npm_path && ./update"
-echo -e "\nrestart terminal to start using\n"
+	echo -e "\nadd this line to a cron job or startup script"
+	echo "    PATH=\$PATH:$(dirname $(which node)):$(dirname $(which npm)) && cd $npm_path && ./update"
+	echo -e "\nrestart terminal to start using\n"
+else
+	echo -e "\ncouldn't find ~/.bashrc or ~/.bash_profile. Please create one of these file and run\n    npm-completion-setup\n"
+fi
