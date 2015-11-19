@@ -1,16 +1,6 @@
 #!/bin/bash
-TARGET_FILE=${BASH_SOURCE[0]}
-cd `dirname $TARGET_FILE`
-TARGET_FILE=`basename $TARGET_FILE`
-while [ -L "$TARGET_FILE" ]
-do
-    TARGET_FILE=`readlink $TARGET_FILE`
-    cd `dirname $TARGET_FILE`
-    TARGET_FILE=`basename $TARGET_FILE`
-done
-PHYS_DIR=`pwd -P`
-npm_path=`dirname $PHYS_DIR/$TARGET_FILE`
-
+custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
+npm_path=`dirname "$(custom_readlink ${BASH_SOURCE[0]})"`
 cd $npm_path
 if [ -d .git ]; then
 	git pull

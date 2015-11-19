@@ -1,3 +1,4 @@
+custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
 _npm_completion () {
   CUR=${COMP_WORDS[COMP_CWORD]}
   echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
@@ -10,8 +11,8 @@ _npm_completion () {
   done
 
 
-  NPM=$(which npm)
-  NPM_BIN=$(echo $(dirname $NPM)/$(dirname $(readlink $NPM)) | grep -o '^.*node_modules')
+  NPM="$(which npm)"
+  NPM_BIN=$(echo "$(dirname "$(custom_readlink "$NPM")")" | sed 's/[\\\/]npm[\\\/]bin.*//')
 
   DO_DEFAULT=true
   if [ $CMD = "install" -o $CMD = "i" ]; then

@@ -1,15 +1,7 @@
 #!/bin/bash
-TARGET_FILE=${BASH_SOURCE[0]}
-cd `dirname $TARGET_FILE`
-TARGET_FILE=`basename $TARGET_FILE`
-while [ -L "$TARGET_FILE" ]
-do
-    TARGET_FILE=`readlink $TARGET_FILE`
-    cd `dirname $TARGET_FILE`
-    TARGET_FILE=`basename $TARGET_FILE`
-done
-PHYS_DIR=`pwd -P`
-npm_path=`dirname $PHYS_DIR/$TARGET_FILE`
+custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
+npm_path=`dirname "$(custom_readlink ${BASH_SOURCE[0]})"`
+
 user=$(who am i)
 if [ -z "$user" ]; then
 	user=$(whoami)
@@ -21,7 +13,7 @@ if [ -e /home/$user/.bashrc ]; then
 elif [ -e /Users/$user/.bash_profile ]; then
 	source_file="/Users/$user/.bash_profile"
 else
-	user2=$(echo $user | grep -o '[^\/]*$')
+	user2=$(echo $user | sed 's/.*[\/\\]//')
 	if [ -e /c/Users/$user/.bashrc ]; then
 		source_file="/c/Users/$user/.bashrc"
 	elif [ -e /c/Users/$user2/.bashrc ]; then
