@@ -1,6 +1,6 @@
 _npm_completion () {
   CUR=${COMP_WORDS[COMP_CWORD]}
-  echo "${COMP_WORDS[@]}" | grep ' -g\([^a-zA-Z0-9]\|$\)' > /dev/null 2>/dev/null
+  echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
   GLOBAL=$?
   IDX=$(expr $COMP_CWORD - 1)
   CMD=${COMP_WORDS[IDX]}
@@ -10,7 +10,8 @@ _npm_completion () {
   done
 
 
-  NPM_BIN=$(readlink -f $(which npm) | grep -o '^.*node_modules')
+  NPM=$(which npm)
+  NPM_BIN=$(echo $(dirname $NPM)/$(dirname $(readlink $NPM)) | grep -o '^.*node_modules')
 
   DO_DEFAULT=true
   if [ $CMD = "install" -o $CMD = "i" ]; then
