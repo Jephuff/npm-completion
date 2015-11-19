@@ -20,8 +20,14 @@ if [ -e /home/$user/.bashrc ]; then
 	source_file="/home/$user/.bashrc"
 elif [ -e /Users/$user/.bash_profile ]; then
 	source_file="/Users/$user/.bash_profile"
-elif [ -e /c/Users/$user/.bashrc ]; then
-	source_file="/c/Users/$user/.bashrc"
+else
+	user2=$(echo $user | grep -o '[^\/]*$')
+	if [ -e /c/Users/$user/.bashrc ]; then
+		source_file="/c/Users/$user/.bashrc"
+	elif [ -e /c/Users/$user2/.bashrc ]; then
+		user=$user2
+		source_file="/c/Users/$user/.bashrc"
+	fi
 fi
 
 if [ ! -z $source_file ]; then
