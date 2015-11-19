@@ -10,8 +10,12 @@ do
 done
 PHYS_DIR=`pwd -P`
 npm_path=`dirname $PHYS_DIR/$TARGET_FILE`
+user=$(who am i)
+if [ -z $user ]; then
+	user=$(whoami)
+fi
 
-user=$(who am i | awk '{print $1}')
+user=$( echo $user | awk '{print $1}')
 if [ -e /home/$user/.bashrc ]; then
 	source_file="/home/$user/.bashrc"
 elif [ -e /Users/$user/.bash_profile ]; then
