@@ -16,12 +16,14 @@ if [ -e /home/$user/.bashrc ]; then
 	source_file="/home/$user/.bashrc"
 elif [ -e /Users/$user/.bash_profile ]; then
 	source_file="/Users/$user/.bash_profile"
+elif [ -e /c/Users/$user/.bashrc ]; then
+	source_file="/c/Users/$user/.bashrc"
 fi
 
 if [ ! -z $source_file ]; then
 	bash_comment="# added for npm-completion https://github.com/Jephuff/npm-bash-completion"
 	bash_variable="PATH_TO_NPM_COMPLETION=\"$npm_path\""
-	npm_source=". \$PATH_TO_NPM_COMPLETION/npm-completion.sh"
+	npm_source="source \$PATH_TO_NPM_COMPLETION/npm-completion.sh"
 
 	grep -F "$bash_comment" $source_file > /dev/null
 	if [ $? != 0 ]; then
