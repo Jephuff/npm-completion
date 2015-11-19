@@ -21,7 +21,7 @@ _npm_completion () {
       if [ ! -z $NPM_BIN ]; then
         DO_DEFAULT=false
         pushd $NPM_BIN >/dev/null
-        COMPREPLY=( $( compgen -d -- $CUR ) )
+        COMPREPLY=( $( compgen -d -- $CUR | sed 's/\(^\| \).bin\( \|$\)/ /') )
         popd >/dev/null
       fi
     else
@@ -34,7 +34,7 @@ _npm_completion () {
 
       if [ -d node_modules ]; then
         cd node_modules
-        COMPREPLY=( $( compgen -d -- $CUR ) )
+        COMPREPLY=( $( compgen -d -- $CUR | sed 's/\(^\| \).bin\( \|$\)/ /') )
       fi
 
       cd $DIR
