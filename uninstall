@@ -2,6 +2,11 @@
 custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
 npm_path=`dirname "$(custom_readlink ${BASH_SOURCE[0]})"`
 
+user=$(who am i 2> /dev/null)
+if [ -z "$user" ]; then
+  user=$(whoami)
+fi
+
 user=$( echo "$user" | awk '{print $1}')
 if [ -e /home/$user/.bashrc ]; then
   source_file="/home/$user/.bashrc"
@@ -18,13 +23,13 @@ else
 fi
 
 if [ ! -z $source_file ]; then
-	bash_comment="# added for npm-completion"
-	bash_variable="PATH_TO_NPM_COMPLETION"
-	npm_source=". \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"
+  bash_comment="# added for npm-completion"
+  bash_variable="PATH_TO_NPM_COMPLETION"
+  npm_source=". \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"
 
-	sed -i "/$bash_comment/d" $source_file
-	sed -i "/$bash_variable/d" $source_file
-	sed -i "/$npm_source/d" $source_file
+  sed -i "/$bash_comment/d" $source_file
+  sed -i "/$bash_variable/d" $source_file
+  sed -i "/$npm_source/d" $source_file
 fi
 
 echo "remove this line to a cron job or startup script if added"

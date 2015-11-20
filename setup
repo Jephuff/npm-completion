@@ -2,7 +2,7 @@
 custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
 npm_path=`dirname "$(custom_readlink ${BASH_SOURCE[0]})"`
 
-user=$(who am i)
+user=$(who am i 2> /dev/null)
 if [ -z "$user" ]; then
 	user=$(whoami)
 fi

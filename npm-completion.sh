@@ -1,8 +1,10 @@
 custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
 _npm_completion () {
   CUR=${COMP_WORDS[COMP_CWORD]}
+
   echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
   GLOBAL=$?
+  
   IDX=$(expr $COMP_CWORD - 1)
   CMD=${COMP_WORDS[IDX]}
   while [ "${CMD:0:1}" == "-"  ]; do
@@ -10,9 +12,18 @@ _npm_completion () {
     CMD=${COMP_WORDS[IDX]}
   done
 
-
-  NPM="$(which npm)"
-  NPM_BIN=$(echo "$(dirname "$(custom_readlink "$NPM")")" | sed 's/[\\\/]npm[\\\/]bin.*//')
+  uname | grep "MINGW[0-9][0-9]_NT" > /dev/null
+  if [ $? = 0 ]; then
+    user=$(who am i 2> /dev/null) 
+    if [ -z "$user" ]; then
+      user=$(whoami)
+    fi
+    user=$( echo "$user" | awk '{print $1}' | sed 's/.*[\/\\]//')
+    NPM_BIN="/c/Users/$user/AppData/Roaming/npm/node_modules"
+  else
+    NPM="$(which npm)"
+    NPM_BIN=$(echo "$(dirname "$(custom_readlink "$NPM")")" | sed 's/[\\\/]npm[\\\/]bin.*//')
+  fi
 
   DO_DEFAULT=true
   if [ $CMD = "install" -o $CMD = "i" ]; then
