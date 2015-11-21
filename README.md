@@ -1,5 +1,5 @@
 # npm-completion
-bash completion script for npm package names.
+bash and zsh completion script for npm package names.
 package list updated at 3am ET everyday
 
 ## SETUP

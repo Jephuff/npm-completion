@@ -1,13 +1,25 @@
 custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
+
+type complete > /dev/null >> /dev/null
+HAS_COMPLETE_FUNC=$?
+
 _npm_completion () {
+  if [ x${words+set} = xset ]; then
+    COMP_WORDS=("${words[@]}")
+  fi
+
+  if [ x${CURRENT+set} = xset ]; then
+    COMP_CWORD=$CURRENT
+  fi
+
   CUR=${COMP_WORDS[COMP_CWORD]}
 
   echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
   GLOBAL=$?
-  
+
   IDX=$(expr $COMP_CWORD - 1)
   CMD=${COMP_WORDS[IDX]}
-  while [ "${CMD:0:1}" == "-"  ]; do
+  while [ "${CMD:0:1}" = "-"  ]; do
     IDX=$(expr $IDX - 1)
     CMD=${COMP_WORDS[IDX]}
   done
@@ -26,15 +38,15 @@ _npm_completion () {
   fi
 
   DO_DEFAULT=true
-  if [ $CMD = "install" -o $CMD = "i" ]; then
+  if [ "$CMD" = "install" -o "$CMD" = "i" ]; then
     DO_DEFAULT=false
     COMPREPLY=( $( grep "^$CUR" "$PATH_TO_NPM_COMPLETION/keys/npm-all" ) )
-  elif [ $CMD = "update" -o $CMD = "remove" -o $CMD = "rm" -o $CMD = "r" -o $CMD = "un" -o $CMD = "unlink" -o $CMD = "uninstall" ]; then
+  elif [ "$CMD" = "update" -o "$CMD" = "remove" -o "$CMD" = "rm" -o "$CMD" = "r" -o "$CMD" = "un" -o "$CMD" = "unlink" -o "$CMD" = "uninstall" ]; then
     if [ $GLOBAL = 0 ]; then
       if [ ! -z $NPM_BIN ]; then
         DO_DEFAULT=false
         pushd $NPM_BIN >/dev/null
-        COMPREPLY=( $( compgen -d -- $CUR | sed 's/\(^\| \).bin\( \|$\)/ /') )
+        COMPREPLY=( $( ls | grep "^$CUR" ) )
         popd >/dev/null
       fi
     else
@@ -47,7 +59,9 @@ _npm_completion () {
 
       if [ -d node_modules ]; then
         cd node_modules
-        COMPREPLY=( $( compgen -d -- $CUR | sed 's/\(^\| \).bin\( \|$\)/ /') )
+        COMPREPLY=( $( ls | grep "^$CUR" ) )
+      else
+        COMPREPLY=()
       fi
 
       cd $DIR
@@ -55,10 +69,35 @@ _npm_completion () {
   fi
 
   if [ $DO_DEFAULT = true ]; then
-    local si="$IFS"
-    IFS=$'\n' COMPREPLY=($(COMP_CWORD="$COMP_CWORD" COMP_LINE="$COMP_LINE" COMP_POINT="$COMP_POINT" npm completion -- "${COMP_WORDS[@]}" 2>/dev/null)) || return $?
+    if [ x${BUFFER+set} = xset ]; then
+      COMP_LINE=$BUFFER
+    fi
+
+    if [ x${COMP_POINT} != xset ]; then
+      COMP_POINT=0
+    fi
+
+    if [ x${CURRENT+set} = xset ]; then
+      COMP_CWORD=$( expr $CURRENT - 1)
+    fi
+
+    si="$IFS"
+    IFS=$'\n'
+    COMPREPLY=($(COMP_CWORD=$COMP_CWORD \
+                 COMP_LINE=$COMP_LINE \
+                 COMP_POINT=$COMP_POINT \
+                 npm completion -- "${COMP_WORDS[@]}" \
+                 2>/dev/null))
     IFS="$si"
+  fi
+
+  if [ $HAS_COMPLETE_FUNC != 0 ]; then
+    compadd $COMPREPLY
   fi
 }
 
-complete -F _npm_completion npm
+if [ $HAS_COMPLETE_FUNC = 0 ]; then
+  complete -F _npm_completion npm
+else
+  compdef _npm_completion npm
+fi
