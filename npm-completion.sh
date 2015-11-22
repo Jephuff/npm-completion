@@ -14,9 +14,6 @@ _npm_completion () {
 
   CUR=${COMP_WORDS[COMP_CWORD]}
 
-  echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
-  GLOBAL=$?
-
   IDX=$(expr $COMP_CWORD - 1)
   CMD=${COMP_WORDS[IDX]}
   while [ "${CMD:0:1}" = "-"  ]; do
@@ -26,12 +23,7 @@ _npm_completion () {
 
   uname | grep "MINGW[0-9][0-9]_NT" > /dev/null
   if [ $? = 0 ]; then
-    user=$(who am i 2> /dev/null) 
-    if [ -z "$user" ]; then
-      user=$(whoami)
-    fi
-    user=$( echo "$user" | awk '{print $1}' | sed 's/.*[\/\\]//')
-    NPM_BIN="/c/Users/$user/AppData/Roaming/npm/node_modules"
+    NPM_BIN=~"/AppData/Roaming/npm/node_modules"
   else
     NPM="$(which npm)"
     NPM_BIN=$(echo "$(dirname "$(custom_readlink "$NPM")")" | sed 's/[\\\/]npm[\\\/]bin.*//')
@@ -42,7 +34,8 @@ _npm_completion () {
     DO_DEFAULT=false
     COMPREPLY=( $( grep "^$CUR" "$PATH_TO_NPM_COMPLETION/keys/npm-all" ) )
   elif [ "$CMD" = "update" -o "$CMD" = "remove" -o "$CMD" = "rm" -o "$CMD" = "r" -o "$CMD" = "un" -o "$CMD" = "unlink" -o "$CMD" = "uninstall" ]; then
-    if [ $GLOBAL = 0 ]; then
+    echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
+    if [ $? = 0 ]; then # is global
       if [ ! -z $NPM_BIN ]; then
         DO_DEFAULT=false
         pushd $NPM_BIN >/dev/null

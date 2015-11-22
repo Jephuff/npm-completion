@@ -1,9 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
-npm_path=`dirname "$(custom_readlink ${BASH_SOURCE[0]})"`
-cd $npm_path
 if [ -d .git ]; then
-	git pull
+  cd $( dirname $(custom_readlink $0) )
+  git pull
 else
-	npm update -g npm-completion
+  npm i -g npm-completion
 fi

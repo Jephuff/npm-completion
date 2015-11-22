@@ -1,36 +1,41 @@
-#!/bin/bash
+#!/bin/sh
 custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
-npm_path=`dirname "$(custom_readlink ${BASH_SOURCE[0]})"`
+NPM_PATH=$( dirname $(custom_readlink $0) )
 
-user=$(who am i 2> /dev/null)
-if [ -z "$user" ]; then
-  user=$(whoami)
+# find user
+user=$(whoami | sed 's/.*[\/\\]//')
+if [ $user = "root" ]; then
+  user=$( who am i 2> /dev/null | awk '{print $1}')
+fi
+USER_HOME=$(eval echo ~$user)
+
+# check for source files
+if [ -e $USER_HOME/.bashrc ]; then
+  BASH_SOURCE_FILE="$USER_HOME/.bashrc"
+elif [ -e $USER_HOME/.bash_profile ]; then
+  BASH_SOURCE_FILE="$USER_HOME/.bash_profile"
 fi
 
-user=$( echo "$user" | awk '{print $1}')
-if [ -e /home/$user/.bashrc ]; then
-  source_file="/home/$user/.bashrc"
-elif [ -e /Users/$user/.bash_profile ]; then
-  source_file="/Users/$user/.bash_profile"
-else
-  user2=$(echo $user | sed 's/.*[\/\\]//')
-  if [ -e /c/Users/$user/.bashrc ]; then
-    source_file="/c/Users/$user/.bashrc"
-  elif [ -e /c/Users/$user2/.bashrc ]; then
-    user=$user2
-    source_file="/c/Users/$user/.bashrc"
-  fi
+if [ -e $USER_HOME/.zshrc ]; then
+  ZSH_SOURCE_FILE="$USER_HOME/.zshrc"
 fi
 
-if [ ! -z $source_file ]; then
-  bash_comment="# added for npm-completion"
-  bash_variable="PATH_TO_NPM_COMPLETION"
-  npm_source=". \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"
-
-  sed -i "/$bash_comment/d" $source_file
-  sed -i "/$bash_variable/d" $source_file
-  sed -i "/$npm_source/d" $source_file
+# add entries to source files
+COMMENT="# added for npm-completion"
+VARIABLE="PATH_TO_NPM_COMPLETION="
+NPM_SOURCE="source \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"
+if [ ! -z $BASH_SOURCE_FILE ]; then
+  sed -i "/$COMMENT/d" $BASH_SOURCE_FILE
+  sed -i "/$VARIABLE/d" $BASH_SOURCE_FILE
+  sed -i "/$NPM_SOURCE/d" $BASH_SOURCE_FILE
 fi
 
-echo "remove this line to a cron job or startup script if added"
-echo "    PATH=\$PATH:$(dirname $(which node)):$(dirname $(which npm)) && cd $npm_path && ./update"
+if [ ! -z $ZSH_SOURCE_FILE ]; then
+  sed -i "/$COMMENT/d" $ZSH_SOURCE_FILE
+  sed -i "/$VARIABLE/d" $ZSH_SOURCE_FILE
+  sed -i "/$NPM_SOURCE/d" $ZSH_SOURCE_FILE
+fi
+
+# echo messages
+echo "\nremove this line from a cron job or startup script if added"
+echo "    PATH=\$PATH:$(dirname $(which node)):$(dirname $(which npm)) && cd $NPM_PATH && ./update"
