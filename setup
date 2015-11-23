@@ -59,10 +59,10 @@ if [ ! -z $ZSH_SOURCE_FILE ]; then
 fi
 
 # echo messages
-if [ ! -z $ZSH_SOURCE_FILE -o ! -z $BASH_SOURCE_FILE ]; then
-  echo "\nadd this line to a cron job or startup script"
-  echo "    PATH=\$PATH:$(dirname $(which node)):$(dirname $(which npm)) && cd $NPM_PATH && ./update"
-  echo "\nrestart terminal to start using\n"
+if [ ! -z "$ZSH_SOURCE_FILE" -o ! -z "$BASH_SOURCE_FILE" ]; then
+  printf "\nadd this line to a cron job or startup script\n"
+  printf "    PATH=\$PATH:\"$(dirname "$(which node)")\":\"$(dirname "$(which npm)")\" && cd $NPM_PATH && ./update\n"
+  printf "\nrestart terminal to start using\n\n"
 else
-  echo "\ncouldn't find source file. Please create ~/.bashrc, ~/.bash_profile or ~/.zshrc and run\n    npm-completion-setup\n"
+  printf "\ncouldn't find source file. Please create ~/.bashrc, ~/.bash_profile or ~/.zshrc and run\n    npm-completion-setup\n\n"
 fi

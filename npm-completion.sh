@@ -23,7 +23,8 @@ _npm_completion () {
 
   uname | grep "MINGW[0-9][0-9]_NT" > /dev/null
   if [ $? = 0 ]; then
-    NPM_BIN=~"/AppData/Roaming/npm/node_modules"
+    HOME_DIR=~
+    NPM_BIN=$HOME_DIR"/AppData/Roaming/npm/node_modules"
   else
     NPM="$(which npm)"
     NPM_BIN=$(echo "$(dirname "$(custom_readlink "$NPM")")" | sed 's/[\\\/]npm[\\\/]bin.*//')
@@ -39,7 +40,7 @@ _npm_completion () {
       if [ ! -z $NPM_BIN ]; then
         DO_DEFAULT=false
         pushd $NPM_BIN >/dev/null
-        COMPREPLY=( $( ls | grep "^$CUR" ) )
+        COMPREPLY=( $( ls | grep "^$CUR" | sed "s/[^a-zA-Z0-9\-]$//" ) )
         popd >/dev/null
       fi
     else
@@ -52,7 +53,7 @@ _npm_completion () {
 
       if [ -d node_modules ]; then
         cd node_modules
-        COMPREPLY=( $( ls | grep "^$CUR" ) )
+        COMPREPLY=( $( ls | grep "^$CUR" | sed "s/[^a-zA-Z0-9\-]$//" ) )
       else
         COMPREPLY=()
       fi

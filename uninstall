@@ -37,5 +37,5 @@ if [ ! -z $ZSH_SOURCE_FILE ]; then
 fi
 
 # echo messages
-echo "\nremove this line from a cron job or startup script if added"
-echo "    PATH=\$PATH:$(dirname $(which node)):$(dirname $(which npm)) && cd $NPM_PATH && ./update"
+printf "\nremove this line from a cron job or startup script if added\n"
+printf "    PATH=\$PATH:\"$(dirname "$(which node)")\":\"$(dirname "$(which npm)")\" && cd $NPM_PATH && ./update\n"
