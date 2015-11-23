@@ -1,40 +1,16 @@
 #!/bin/sh
-custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
-NPM_PATH=$( dirname $(custom_readlink $0) )
+NPM_PATH=$(cd $(dirname $0) && pwd)/$(basename $0)
+while [ -h $NPM_PATH ]; do
+  NPM_PATH=$(dirname $NPM_PATH)/$(ls -ld -- "$NPM_PATH" | awk '{print $11}')
+done
+NPM_PATH=$( dirname $NPM_PATH )
 
-# find user
-user=$(whoami | sed 's/.*[\/\\]//')
-if [ $user = "root" ]; then
-  user=$( who am i 2> /dev/null | awk '{print $1}')
-fi
-USER_HOME=$(eval echo ~$user)
-
-# check for source files
-if [ -e $USER_HOME/.bashrc ]; then
-  BASH_SOURCE_FILE="$USER_HOME/.bashrc"
-elif [ -e $USER_HOME/.bash_profile ]; then
-  BASH_SOURCE_FILE="$USER_HOME/.bash_profile"
-fi
-
-if [ -e $USER_HOME/.zshrc ]; then
-  ZSH_SOURCE_FILE="$USER_HOME/.zshrc"
-fi
-
-# add entries to source files
-COMMENT="# added for npm-completion"
-VARIABLE="PATH_TO_NPM_COMPLETION="
-NPM_SOURCE="source \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"
-if [ ! -z $BASH_SOURCE_FILE ]; then
-  sed -i "/$COMMENT/d" $BASH_SOURCE_FILE
-  sed -i "/$VARIABLE/d" $BASH_SOURCE_FILE
-  sed -i "/$NPM_SOURCE/d" $BASH_SOURCE_FILE
-fi
-
-if [ ! -z $ZSH_SOURCE_FILE ]; then
-  sed -i "/$COMMENT/d" $ZSH_SOURCE_FILE
-  sed -i "/$VARIABLE/d" $ZSH_SOURCE_FILE
-  sed -i "/$NPM_SOURCE/d" $ZSH_SOURCE_FILE
-fi
+SOURCE_FILES=$($NPM_PATH/get-source-files.sh)
+for SOURCE_FILE in $SOURCE_FILES; do
+  for LINE in " # added for npm-completion" "PATH_TO_NPM_COMPLETION=" "source \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"; do
+    sed -i "/$LINE/d" $SOURCE_FILE
+  done
+done
 
 # echo messages
 printf "\nremove this line from a cron job or startup script if added\n"

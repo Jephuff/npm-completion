@@ -1,65 +1,22 @@
 #!/bin/sh
-custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
-NPM_PATH=$( dirname $(custom_readlink $0) )
+NPM_PATH=$(cd $(dirname $0) && pwd)/$(basename $0)
+while [ -h $NPM_PATH ]; do
+  NPM_PATH=$(dirname "$NPM_PATH")/$(ls -ld -- "$NPM_PATH" | awk '{print $11}')
+done
+NPM_PATH=$( dirname "$NPM_PATH" )
 
-# find user
-user=$(whoami | sed 's/.*[\/\\]//')
-if [ $user = "root" ]; then
-  user=$( who am i 2> /dev/null | awk '{print $1}')
-fi
-USER_HOME=$(eval echo ~$user)
-
-# check for source files
-if [ -e $USER_HOME/.bashrc ]; then
-  BASH_SOURCE_FILE="$USER_HOME/.bashrc"
-elif [ -e $USER_HOME/.bash_profile ]; then
-  BASH_SOURCE_FILE="$USER_HOME/.bash_profile"
-fi
-
-if [ -e $USER_HOME/.zshrc ]; then
-  ZSH_SOURCE_FILE="$USER_HOME/.zshrc"
-fi
-
-# add entries to source files
-COMMENT="# added for npm-completion https://github.com/Jephuff/npm-bash-completion"
-VARIABLE="PATH_TO_NPM_COMPLETION=\"$NPM_PATH\""
-NPM_SOURCE="source \$PATH_TO_NPM_COMPLETION/npm-completion.sh"
-if [ ! -z $BASH_SOURCE_FILE ]; then
-  grep -F "$COMMENT" $BASH_SOURCE_FILE > /dev/null
-  if [ $? != 0 ]; then
-    printf "\n$COMMENT" >> $BASH_SOURCE_FILE
-  fi
-
-  grep -F "$VARIABLE" $BASH_SOURCE_FILE > /dev/null
-  if [ $? != 0 ]; then
-    printf "\n$VARIABLE" >> $BASH_SOURCE_FILE
-  fi
-
-  grep -F "$NPM_SOURCE" $BASH_SOURCE_FILE > /dev/null
-  if [ $? != 0 ]; then
-    printf "\n$NPM_SOURCE" >> $BASH_SOURCE_FILE
-  fi
-fi
-
-if [ ! -z $ZSH_SOURCE_FILE ]; then
-  grep -F "$COMMENT" $ZSH_SOURCE_FILE > /dev/null
-  if [ $? != 0 ]; then
-    printf "\n$COMMENT" >> $ZSH_SOURCE_FILE
-  fi
-
-  grep -F "$VARIABLE" $ZSH_SOURCE_FILE > /dev/null
-  if [ $? != 0 ]; then
-    printf "\n$VARIABLE" >> $ZSH_SOURCE_FILE
-  fi
-
-  grep -F "$NPM_SOURCE" $ZSH_SOURCE_FILE > /dev/null
-  if [ $? != 0 ]; then
-    printf "\n$NPM_SOURCE" >> $ZSH_SOURCE_FILE
-  fi
-fi
+SOURCE_FILES=$( $NPM_PATH/get-source-files.sh )
+for SOURCE_FILE in $SOURCE_FILES; do
+  for LINE in " # added for npm-completion https://github.com/Jephuff/npm-bash-completion" "PATH_TO_NPM_COMPLETION=\"$NPM_PATH\"" "source \$PATH_TO_NPM_COMPLETION/npm-completion.sh"; do
+    grep -F "$LINE" $SOURCE_FILE > /dev/null
+    if [ $? != 0 ]; then
+      printf "\n$LINE" >> $SOURCE_FILE
+    fi
+  done
+done
 
 # echo messages
-if [ ! -z "$ZSH_SOURCE_FILE" -o ! -z "$BASH_SOURCE_FILE" ]; then
+if [ ! -z "$SOURCE_FILES" ]; then
   printf "\nadd this line to a cron job or startup script\n"
   printf "    PATH=\$PATH:\"$(dirname "$(which node)")\":\"$(dirname "$(which npm)")\" && cd $NPM_PATH && ./update\n"
   printf "\nrestart terminal to start using\n\n"

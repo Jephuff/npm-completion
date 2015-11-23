@@ -1,5 +1,3 @@
-custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
-
 type complete > /dev/null >> /dev/null
 HAS_COMPLETE_FUNC=$?
 
@@ -26,8 +24,11 @@ _npm_completion () {
     HOME_DIR=~
     NPM_BIN=$HOME_DIR"/AppData/Roaming/npm/node_modules"
   else
-    NPM="$(which npm)"
-    NPM_BIN=$(echo "$(dirname "$(custom_readlink "$NPM")")" | sed 's/[\\\/]npm[\\\/]bin.*//')
+    NPM_BIN="$(which npm)"
+    while [ -h $NPM_BIN ]; do
+      NPM_BIN=$(dirname $NPM_BIN)/$(ls -ld -- "$NPM_BIN" | awk '{print $11}')
+    done
+    NPM_BIN=$(echo $NPM_BIN | sed 's/[\\\/]npm[\\\/]bin.*//')
   fi
 
   DO_DEFAULT=true

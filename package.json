@@ -10,7 +10,11 @@
     "bash",
     "completion",
     "npm",
-    "shell"
+    "shell",
+    "zsh",
+    "sh",
+    "tab",
+    "complete"
   ],
   "author": "Jeffrey Burt",
   "license": "ISC",

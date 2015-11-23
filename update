@@ -1,7 +1,10 @@
 #!/bin/sh
-custom_readlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); custom_readlink "$link" | sed "s|^\([^/].*\)\$|$(dirname $1)/\1|"); }
 if [ -d .git ]; then
-  cd $( dirname $(custom_readlink $0) )
+  DIR=$(cd $(dirname $0) && pwd)/$(basename $0)
+  while [ -h $DIR ]; do
+    DIR=$(dirname $DIR)/$(ls -ld -- "$DIR" | awk '{print $11}')
+  done
+  cd $( dirname $DIR )
   git pull
 else
   npm i -g npm-completion
