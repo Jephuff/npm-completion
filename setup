@@ -15,10 +15,12 @@ for SOURCE_FILE in $SOURCE_FILES; do
   done
 done
 
+(cd $NPM_PATH && git clone https://github.com/Jephuff/npm-package-names)
+
 # echo messages
 if [ ! -z "$SOURCE_FILES" ]; then
   printf "\nadd this line to a cron job or startup script\n"
-  printf "    PATH=\$PATH:\"$(dirname "$(which node)")\":\"$(dirname "$(which npm)")\" && cd $NPM_PATH && ./update\n"
+  printf "    PATH=\$PATH:\"$(dirname "$(which node)")\":\"$(dirname "$(which npm)")\":\"$(dirname "$(which git)")\" && cd $NPM_PATH && ./update\n"
   printf "\nrestart terminal to start using\n\n"
 else
   printf "\ncouldn't find source file. Please create ~/.bashrc, ~/.bash_profile or ~/.zshrc and run\n    npm-completion-setup\n\n"

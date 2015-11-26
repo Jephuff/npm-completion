@@ -1,11 +1,7 @@
 #!/bin/sh
-if [ -d .git ]; then
-  DIR=$(cd $(dirname $0) && pwd)/$(basename $0)
-  while [ -h $DIR ]; do
-    DIR=$(dirname $DIR)/$(ls -ld -- "$DIR" | awk '{print $11}')
-  done
-  cd $( dirname $DIR )
-  git pull
-else
-  npm i -g npm-completion
-fi
+DIR=$(cd $(dirname $0) && pwd)/$(basename $0)
+while [ -h $DIR ]; do
+	DIR=$(dirname $DIR)/$(ls -ld -- "$DIR" | awk '{print $11}')
+done
+cd $( dirname $DIR )/npm-package-names
+git pull

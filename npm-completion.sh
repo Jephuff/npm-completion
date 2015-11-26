@@ -34,7 +34,7 @@ _npm_completion () {
   DO_DEFAULT=true
   if [ "$CMD" = "install" -o "$CMD" = "i" ]; then
     DO_DEFAULT=false
-    COMPREPLY=( $( grep "^$CUR" "$PATH_TO_NPM_COMPLETION/keys/npm-all" ) )
+    COMPREPLY=( $( grep "^$CUR" "$PATH_TO_NPM_COMPLETION/npm-package-names/npm-all" ) )
   elif [ "$CMD" = "update" -o "$CMD" = "remove" -o "$CMD" = "rm" -o "$CMD" = "r" -o "$CMD" = "un" -o "$CMD" = "unlink" -o "$CMD" = "uninstall" ]; then
     echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
     if [ $? = 0 ]; then # is global
