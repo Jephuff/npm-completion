@@ -1,6 +1,5 @@
 # npm-completion
 bash and zsh completion script for npm package names.
-package list updated at 3am ET everyday
 
 this script will list/complete package names for remove, update and install commands.
 when there are multiple options it will list them.
@@ -17,7 +16,10 @@ npm install npm-compl[tab]
 ```
 install will look at all package names on npm. Remove and update will look at locally installed packages(if -g is in the command, it will look at global packages).
 
-
+package list updated at 3am ET everyday so it's recommended that you run the update command periodically.
+```bash
+npm-completion-update
+```
 
 ## SETUP
 
