@@ -34,14 +34,14 @@ _npm_completion () {
   DO_DEFAULT=true
   if [ "$CMD" = "install" -o "$CMD" = "i" ]; then
     DO_DEFAULT=false
-    COMPREPLY=( $( grep "^$CUR" "$PATH_TO_NPM_COMPLETION/npm-package-names/npm-all" ) )
+    COMPREPLY=( $( grep "^$CUR" "$NPM_BIN/npm-completion/npm-package-names/npm-all" 2> /dev/null ) )
   elif [ "$CMD" = "update" -o "$CMD" = "remove" -o "$CMD" = "rm" -o "$CMD" = "r" -o "$CMD" = "un" -o "$CMD" = "unlink" -o "$CMD" = "uninstall" ]; then
     echo "${COMP_WORDS[@]}" | grep '\s-g\([^\w]\|$\)' > /dev/null 2>/dev/null
     if [ $? = 0 ]; then # is global
       if [ ! -z $NPM_BIN ]; then
         DO_DEFAULT=false
         pushd $NPM_BIN >/dev/null
-        COMPREPLY=( $( ls | grep "^$CUR" | sed "s/[^a-zA-Z0-9\-]$//" ) )
+        COMPREPLY=( $( ls | grep "^$CUR" 2> /dev/null | sed "s/[^a-zA-Z0-9\-]$//" ) )
         popd >/dev/null
       fi
     else
@@ -54,7 +54,7 @@ _npm_completion () {
 
       if [ -d node_modules ]; then
         cd node_modules
-        COMPREPLY=( $( ls | grep "^$CUR" | sed "s/[^a-zA-Z0-9\-]$//" ) )
+        COMPREPLY=( $( ls | grep "^$CUR" 2> /dev/null | sed "s/[^a-zA-Z0-9\-]$//" ) )
       else
         COMPREPLY=()
       fi
