@@ -92,12 +92,11 @@ _npm_completion () {
     fi
 
     si="$IFS"
-    IFS=$'\n'
-    COMPREPLY=($(COMP_CWORD=$COMP_CWORD \
+    IFS=$'\n' COMPREPLY=($(COMP_CWORD=$COMP_CWORD \
                  COMP_LINE=$COMP_LINE \
                  COMP_POINT=$COMP_POINT \
-                 npm completion -- "${COMP_WORDS[@]}" \
-                 2>/dev/null))
+                 npm completion -- "${COMP_WORDS[@]}" 2> /dev/null \
+                 | grep "^$CUR" 2> /dev/null)) || return $?
     IFS="$si"
   fi
 
