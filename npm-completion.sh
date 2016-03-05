@@ -61,6 +61,21 @@ _npm_completion () {
 
       cd $DIR
     fi
+  elif [ "$CMD" = "run" ]; then
+    DO_DEFAULT=false
+    DIR=$(pwd)
+
+    while [ ! -e package.json -a $(pwd) != "/" ]; do
+      cd ../
+    done
+
+    if [ -e package.json ]; then
+      COMPREPLY=($($PATH_TO_NPM_COMPLETION/get-scripts.js $(pwd) | grep "^$CUR" 2> /dev/null))
+    else
+      COMPREPLY=()
+    fi
+
+    cd $DIR
   fi
 
   if [ $DO_DEFAULT = true ]; then
