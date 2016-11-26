@@ -15,7 +15,7 @@ for SOURCE_FILE in $SOURCE_FILES; do
   done
 done
 
-(cd $NPM_PATH && git clone https://github.com/Jephuff/npm-package-names)
+(cd $NPM_PATH && git clone --depth 1 https://github.com/Jephuff/npm-package-names)
 
 # echo messages
 if [ ! -z "$SOURCE_FILES" ]; then
