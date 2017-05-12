@@ -60,3 +60,11 @@ you will need to download the windows version
 $ npm i -g npm-completion@windows
 $ npm-completion-setup
 ```
+
+## Options
+set INCLUDE_YARN_COMPLETION to false in your .bashrc above the npm-completion lines to exclude yarn completion
+
+```
+INCLUDE_YARN_COMPLETION=false
+# added for npm-completion https://github.com/Jephuff/npm-bash-completion
+```
