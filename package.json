@@ -14,7 +14,11 @@
     "zsh",
     "sh",
     "tab",
-    "complete"
+    "complete",
+    "yarn",
+    "yarn completion",
+    "tab tab",
+    "yarnpkg"
   ],
   "author": "Jeffrey Burt",
   "license": "ISC",
