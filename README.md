@@ -1,6 +1,7 @@
 # npm-completion
-![npm downloads](https://img.shields.io/npm/dt/npm-completion.svg)
-![npm version](https://img.shields.io/npm/v/npm.svg)  
+[![npm version](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/npm-completion)  
+[![npm downloads](https://img.shields.io/npm/dt/npm-completion.svg)](http://npmcharts.com/compare/npm-completion)  
+
 
 npm and yarn completion including package names for bash and zsh
 
