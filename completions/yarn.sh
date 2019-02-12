@@ -153,6 +153,8 @@ _yarn_completion() {
   elif [ "$CMD" = "run" ]; then
     if [ $(expr $COMP_CWORD) == 2 ]; then
       _npm_completion_package_data scripts
+    elif [ $(expr $COMP_CWORD) -gt 2 ]; then
+      COMPREPLY=($(compgen -f  -- "${COMP_WORDS[${COMP_CWORD}]}" ))
     fi
   elif [ "$CMD" = "create" ]; then
     prefix=create-
@@ -186,9 +188,14 @@ _yarn_completion() {
     _longopt
     _npm_completion_existing_local
   elif [ $(expr $COMP_CWORD) == 2 ]; then
-    _npm_completion_sub
-    if [ "$COMPREPLY" = "" ]; then
-      _npm_completion_flags
+    _get_npm_completion_package_data scripts | grep "^$CMD$" > /dev/null
+    if [ $? = 0 ]; then
+      COMPREPLY=($(compgen -f  -- "${COMP_WORDS[${COMP_CWORD}]}" ))
+    else
+      _npm_completion_sub
+      if [ "$COMPREPLY" = "" ]; then
+        _npm_completion_flags
+      fi
     fi
   elif [ "$CMD" = "config" ]; then
     if [ "$SUB_CMD" = "get" -o "$SUB_CMD" = "delete" ]; then

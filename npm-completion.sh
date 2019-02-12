@@ -31,8 +31,8 @@ _npm_completion_existing_local() {
   cd $DIR
 }
 
-_npm_completion_package_data() {
-  DO_DEFAULT=false
+
+_get_npm_completion_package_data() {
   DIR=$(pwd)
 
   while [ ! -e package.json -a $(pwd) != "/" ]; do
@@ -40,10 +40,15 @@ _npm_completion_package_data() {
   done
 
   if [ -e package.json ]; then
-    COMPREPLY=($($PATH_TO_NPM_COMPLETION/get-package-data.js $(pwd) $1 | grep "^$CUR" 2> /dev/null) "${COMPREPLY[@]}")
+    $PATH_TO_NPM_COMPLETION/get-package-data.js $(pwd) $1
   fi
 
   cd $DIR
+}
+
+_npm_completion_package_data() {
+  DO_DEFAULT=false
+  COMPREPLY=($(_get_npm_completion_package_data $1 | grep "^$CUR" 2> /dev/null) "${COMPREPLY[@]}")
 }
 
 uname | grep "MINGW[0-9][0-9]_NT" > /dev/null

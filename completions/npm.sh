@@ -31,6 +31,11 @@ _npm_completion () {
     _npm_completion_existing
   elif [ "$CMD" = "run" ]; then
     _npm_completion_package_data scripts
+  elif [ "${COMP_WORDS[1]}" = "run" ]; then
+    if [ $(expr $COMP_CWORD - 1) -gt 1 ]; then
+      COMPREPLY=($(compgen -f  -- "${COMP_WORDS[${COMP_CWORD}]}" ))
+      DO_DEFAULT=false
+    fi
   fi
 
   if [ $DO_DEFAULT = true ]; then
