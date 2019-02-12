@@ -46,6 +46,11 @@ _npm_completion_package_data() {
   cd $DIR
 }
 
+uname | grep "MINGW[0-9][0-9]_NT" > /dev/null
+if [ $? = 0 ]; then
+  IS_WINDOWS="true"
+fi
+
 _npm_completion_setup() {
   if [ x${words+set} = xset ]; then
     COMP_WORDS=("${words[@]}")
@@ -55,8 +60,7 @@ _npm_completion_setup() {
     COMP_CWORD=$CURRENT
   fi
 
-  uname | grep "MINGW[0-9][0-9]_NT" > /dev/null
-  if [ $? = 0 ]; then
+  if [ "$IS_WINDOWS" == "true" ]; then
     HOME_DIR=~
     NPM_BIN=$HOME_DIR"/AppData/Roaming/npm/node_modules"
   else
