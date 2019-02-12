@@ -7,8 +7,8 @@ NPM_PATH=$( dirname $NPM_PATH )
 
 SOURCE_FILES=$($NPM_PATH/get-source-files.sh)
 for SOURCE_FILE in $SOURCE_FILES; do
-  for LINE in " # added for npm-completion" "PATH_TO_NPM_COMPLETION=" "source \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"; do
-    sed -i "/$LINE/d" $SOURCE_FILE
+  for LINE in "# added for npm-completion" "PATH_TO_NPM_COMPLETION=" "source \$PATH_TO_NPM_COMPLETION\/npm-completion.sh"; do
+    sed -i "" "/$LINE/d" "$SOURCE_FILE"
   done
 done
 
