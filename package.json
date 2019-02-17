@@ -1,6 +1,6 @@
 {
   "name": "npm-completion",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "bash and zsh completion script for npm package names.",
   "repository": {
     "type": "git",
