@@ -33,7 +33,7 @@ _npm_completion () {
     _npm_completion_package_data scripts
   elif [ "${COMP_WORDS[1]}" = "run" ]; then
     if [ $(expr $COMP_CWORD - 1) -gt 1 ]; then
-      COMPREPLY=($(compgen -f  -- "${COMP_WORDS[${COMP_CWORD}]}" ))
+      _longopt
       DO_DEFAULT=false
     fi
   fi
@@ -67,6 +67,6 @@ _npm_completion () {
 
 if [ $HAS_COMPLETE_FUNC = 0 ]; then
   complete -F _npm_completion npm
-else
+elif [ $HAS_COMPDEF_FUNC = 0 ]; then
   compdef _npm_completion npm
 fi

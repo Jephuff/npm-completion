@@ -154,7 +154,7 @@ _yarn_completion() {
     if [ $(expr $COMP_CWORD) == 2 ]; then
       _npm_completion_package_data scripts
     elif [ $(expr $COMP_CWORD) -gt 2 ]; then
-      COMPREPLY=($(compgen -f  -- "${COMP_WORDS[${COMP_CWORD}]}" ))
+      _longopt
     fi
   elif [ "$CMD" = "create" ]; then
     prefix=create-
@@ -190,7 +190,7 @@ _yarn_completion() {
   elif [ $(expr $COMP_CWORD) == 2 ]; then
     _get_npm_completion_package_data scripts | grep "^$CMD$" > /dev/null
     if [ $? = 0 ]; then
-      COMPREPLY=($(compgen -f  -- "${COMP_WORDS[${COMP_CWORD}]}" ))
+      _longopt
     else
       _npm_completion_sub
       if [ "$COMPREPLY" = "" ]; then
@@ -260,6 +260,6 @@ _yarn_completion() {
 
 if [ $HAS_COMPLETE_FUNC = 0 ]; then
   complete -F _yarn_completion yarn
-else
+elif [ $HAS_COMPDEF_FUNC = 0 ]; then
   compdef _yarn_completion yarn
 fi

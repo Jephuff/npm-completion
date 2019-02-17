@@ -1,6 +1,9 @@
 type complete > /dev/null >> /dev/null
 HAS_COMPLETE_FUNC=$?
 
+type compdef > /dev/null >> /dev/null
+HAS_COMPDEF_FUNC=$?
+
 _npm_completion_install() {
   DO_DEFAULT=false
   COMPREPLY=( $( grep "^$CUR" "$NPM_BIN/npm-completion/npm-package-names/npm-all" 2> /dev/null ) "${COMPREPLY[@]}")
@@ -65,7 +68,7 @@ _npm_completion_setup() {
     COMP_CWORD=$CURRENT
   fi
 
-  if [ "$IS_WINDOWS" == "true" ]; then
+  if [ "$IS_WINDOWS" = "true" ]; then
     HOME_DIR=~
     NPM_BIN=$HOME_DIR"/AppData/Roaming/npm/node_modules"
   else
