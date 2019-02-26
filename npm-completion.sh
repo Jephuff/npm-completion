@@ -1,7 +1,7 @@
-type complete > /dev/null >> /dev/null
+type complete > /dev/null 2> /dev/null
 HAS_COMPLETE_FUNC=$?
 
-type compdef > /dev/null >> /dev/null
+type compdef > /dev/null 2> /dev/null
 HAS_COMPDEF_FUNC=$?
 
 _npm_completion_install() {
