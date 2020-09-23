@@ -35,5 +35,6 @@
     "npm-completion-update": "update",
     "npm-completion-uninstall": "uninstall"
   },
-  "homepage": "https://github.com/Jephuff/npm-completion#readme"
+  "homepage": "https://github.com/Jephuff/npm-completion#readme",
+  "dependencies": {}
 }

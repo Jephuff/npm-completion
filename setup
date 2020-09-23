@@ -7,12 +7,17 @@ NPM_PATH=$( dirname "$NPM_PATH" )
 
 SOURCE_FILES=$( $NPM_PATH/get-source-files.sh )
 for SOURCE_FILE in $SOURCE_FILES; do
-  for LINE in " # added for npm-completion https://github.com/Jephuff/npm-bash-completion" "PATH_TO_NPM_COMPLETION=\"$NPM_PATH\"" "source \$PATH_TO_NPM_COMPLETION/npm-completion.sh"; do
+  END_WITH_NEW_LINE=false
+  for LINE in "# added for npm-completion https://github.com/Jephuff/npm-bash-completion" "PATH_TO_NPM_COMPLETION=\"$NPM_PATH\"" "source \$PATH_TO_NPM_COMPLETION/npm-completion.sh"; do
     grep -F "$LINE" $SOURCE_FILE > /dev/null
     if [ $? != 0 ]; then
       printf "\n$LINE" >> $SOURCE_FILE
+      END_WITH_NEW_LINE=true
     fi
   done
+  if [[ $END_WITH_NEW_LINE = true ]]; then
+    printf "\n\n" >> $SOURCE_FILE
+  fi
 done
 
 (cd $NPM_PATH && git clone --depth 1 https://github.com/Jephuff/npm-package-names)
